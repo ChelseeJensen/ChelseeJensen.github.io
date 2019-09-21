@@ -1,0 +1,32 @@
+img {
+    position: absolute;
+    width: 125px;
+    box-shadow: 0 4 px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+.headerFooter {
+    background-color: rebeccapurple;
+    padding: 1em;
+    border-radius: 8px;
+    color: mintcream;
+}
+.assignLinks{
+    color: rebeccapurple;
+}
+#bodyDiv {
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    max-width: 800px;
+    margin: block;
+    margin: auto;
+}
+#mainContent {
+    padding: 10 px;
+}
+#byui {
+    color: mintcream;
+}
