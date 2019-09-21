@@ -1,9 +1,5 @@
-img {
-    position: absolute;
-    width: 125px;
-    box-shadow: 0 4 px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 header {
+    position: relative;
     text-align: center;
 }
 footer {
@@ -17,6 +13,14 @@ footer {
 }
 .assignLinks{
     color: rebeccapurple;
+}
+#picture {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 125px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #bodyDiv {
     font-family: "Trebuchet MS", Tahoma, sans-serif;
