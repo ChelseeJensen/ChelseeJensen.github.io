@@ -1,0 +1,104 @@
+/* ----------- baseline view ------------- */
+
+body {
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    max-width: 900px;
+}
+header, footer {
+    padding: 0.75rem;
+    margin: 1.25rem auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: mintcream;
+}
+footer {
+    font-size: .90rem;
+}
+.sec1, .sec2, .sec3 {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: slategray;
+    color: black;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    padding-top: 10px;
+}
+h2 {
+    font-size: 1rem;
+}
+.header{
+    margin-bottom: 20px;
+}
+.footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    min-height: 3em;
+    font-size: 0.85em;
+    border-radius: 8px;
+}
+.h3, h4, .websitelink, .screenshot, .description {
+    padding: 10px;
+}
+.screenshot {
+    width: 93%;
+    display: block;
+    max-width: 800px;
+}
+#byui {
+    color: mintcream;
+}
+#lastUpdated {
+    color:lightpink;
+    font-size: .80rem;
+    margin: -8px;
+}
+
+/* ---------- tablet view ----------*/
+@media only screen and (min-width: 37.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    header, footer{
+        border-radius: 10px;
+    }
+}
+
+/* ---------- desktop view (60 em) -----------*/
+@media only screen and (min-width: 60em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr;
+    }
+    h1 {
+        font-size: 3.0rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    header, footer {
+        border-radius: 20px;
+    }
+}
