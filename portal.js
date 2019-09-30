@@ -1,3 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('lastUpdated').innerHTML = 'Last Updated: ' + document.lastModified;
-    }, false);
+document.getElementById('lastUpdated').textContent = document.lastModified;
+
+var date = new Date().getFullYear;
+document.getElementById('year').innerHTML = date;

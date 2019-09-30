@@ -1,4 +1,4 @@
-document.getElementById("lastUpdated").innerHTML = document.lastUpdated;
+document.getElementById('lastUpdated').textContent = document.lastModified;
 
-var copyright_year = new Date();
-document.getElementById("copyright_year").innerHTML = copyright_year.getFullYear();
+var date = new Date().getFullYear;
+document.getElementById('year').innerHTML = date;
