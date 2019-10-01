@@ -37,23 +37,23 @@ footer {
 }
 .sec1, .sec2, .sec3 {
     border: 1px solid black;
-    border-radius: 20px;
-    background-color: slategray;
+    background-color:lightgray;
     color: black;
     display: block;
 }
 .banner {
-    background-color: slategray;
-    border-radius: 7px 7px 0px 0px;
+    background-color:rebeccapurple;
     padding: 4px;
     padding-left: 6px;
     color: white;
+    text-align: center;
 }
 .body {
     background-color: lightgray;
     width: 98%;
     display: block;
     margin: auto;
+    text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
@@ -74,7 +74,6 @@ h2 {
     padding-top: 10px;
     min-height: 3em;
     font-size: 0.85em;
-    border-radius: 8px;
 }
 .h3, h4, .websitelink, .screenshot, .description {
     padding: 10px;
