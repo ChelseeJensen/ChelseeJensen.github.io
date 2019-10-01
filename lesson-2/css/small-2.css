@@ -6,7 +6,7 @@
 body {
     font-size: 16px;
     line-height: 1.5rem;
-    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-family: "Oxygen", "Trebuchet MS", Tahoma, sans-serif;
 }
 .content {
     display: grid;
@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
     max-width: 900px;
 }
+.content > div {
+    border-radius: 8px 8px 0px 0px;
+    display: block;
+    border: 1px solid black;
+}
 header, footer {
     padding: 0.75rem;
     margin: 1.25rem auto;
@@ -23,6 +28,9 @@ header, footer {
     text-align: center;
     background-color: rebeccapurple;
     color: mintcream;
+}
+#author {
+    padding-bottom: 10px;
 }
 footer {
     font-size: .90rem;
@@ -33,6 +41,19 @@ footer {
     background-color: slategray;
     color: black;
     display: block;
+}
+.banner {
+    background-color: slategray;
+    border-radius: 7px 7px 0px 0px;
+    padding: 4px;
+    padding-left: 6px;
+    color: white;
+}
+.body {
+    background-color: lightgray;
+    width: 98%;
+    display: block;
+    margin: auto;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
@@ -59,9 +80,16 @@ h2 {
     padding: 10px;
 }
 .screenshot {
+    border: 1px solid black;
+    margin: auto;
     width: 93%;
     display: block;
-    max-width: 800px;
+    max-width: 95%;
+}
+p {
+    font-size: 0.85em;
+    margin-left: 8px;
+    text-align: center;
 }
 #byui {
     color: mintcream;
@@ -72,7 +100,7 @@ h2 {
     margin: -8px;
 }
 
-/* ---------- tablet view ----------*/
+/* ---------- tablet view ----------
 @media only screen and (min-width: 37.5em) {
     .content {
         display: grid;
@@ -88,8 +116,9 @@ h2 {
         border-radius: 10px;
     }
 }
+*/
 
-/* ---------- desktop view (60 em) -----------*/
+/* ---------- desktop view (60 em) -----------
 @media only screen and (min-width: 60em) {
     .content {
         display: grid;
@@ -105,3 +134,4 @@ h2 {
         border-radius: 20px;
     }
 }
+*/
