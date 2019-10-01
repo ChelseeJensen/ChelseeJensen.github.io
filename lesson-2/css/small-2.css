@@ -1,11 +1,14 @@
 /* ----------- baseline view ------------- */
 
+* {
+    box-sizing: border-box;
+}
 body {
     font-size: 16px;
     line-height: 1.5rem;
     font-family: "Trebuchet MS", Tahoma, sans-serif;
 }
-main {
+.content {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -71,9 +74,9 @@ h2 {
 
 /* ---------- tablet view ----------*/
 @media only screen and (min-width: 37.5em) {
-    main {
+    .content {
         display: grid;
-        grid-template-columns: 1fr, 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
     h1 {
         font-size: 2.5rem;
@@ -88,9 +91,9 @@ h2 {
 
 /* ---------- desktop view (60 em) -----------*/
 @media only screen and (min-width: 60em) {
-    main {
+    .content {
         display: grid;
-        grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
     h1 {
         font-size: 3.0rem;
