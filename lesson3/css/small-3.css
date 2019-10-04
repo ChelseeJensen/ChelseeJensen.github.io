@@ -1,0 +1,136 @@
+/* ----------- baseline view ------------- */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family: "Oxygen", "Trebuchet MS", Tahoma, sans-serif;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.content > div {
+    border-radius: 8px 8px 0px 0px;
+    display: block;
+    border: 1px solid black;
+}
+header, footer {
+    padding: 0.75rem;
+    margin: 1.25rem auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: mintcream;
+}
+#author {
+    padding-bottom: 10px;
+}
+footer {
+    font-size: .90rem;
+}
+.sec1, .sec2, .sec3 {
+    border: 1px solid black;
+    background-color:lightgray;
+    color: black;
+    display: block;
+}
+.banner {
+    background-color:rebeccapurple;
+    padding: 4px;
+    padding-left: 6px;
+    color: white;
+    text-align: center;
+}
+.body {
+    background-color: lightgray;
+    width: 98%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    padding-top: 10px;
+}
+h2 {
+    font-size: 1rem;
+}
+.header{
+    margin-bottom: 20px;
+}
+.footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    min-height: 3em;
+    font-size: 0.85em;
+}
+.h3, h4, .websitelink, .screenshot, .description {
+    padding: 10px;
+}
+.screenshot {
+    border: 1px solid black;
+    margin: auto;
+    width: 93%;
+    display: block;
+    max-width: 95%;
+}
+p {
+    font-size: 0.85em;
+    margin-left: 8px;
+    text-align: center;
+}
+#byui {
+    color: mintcream;
+}
+#lastUpdated {
+    color:lightpink;
+    font-size: .80rem;
+    margin: -8px;
+}
+
+/* ---------- tablet view ----------
+@media only screen and (min-width: 37.5em) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    header, footer{
+        border-radius: 10px;
+    }
+}
+*/
+
+/* ---------- desktop view (60 em) -----------
+@media only screen and (min-width: 60em) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    h1 {
+        font-size: 3.0rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    header, footer {
+        border-radius: 20px;
+    }
+}
+*/
