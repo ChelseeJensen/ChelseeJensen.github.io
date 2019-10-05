@@ -38,6 +38,10 @@ header, nav, footer, main {
     color: black;
     display: block;
 }*/
+header img {
+    margin: 5px auto;
+    max-width: 75px;
+}
 .banner {
     background-color:rebeccapurple;
     padding: 4px;
