@@ -15,30 +15,94 @@
         <link href="https://fonts.googleapis.com/css?family=Oxygen|Poppins&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="lastUpdated()">
         <header>
             <img src="/lesson3/images/WeatherDoneBetterIcon.png" alt="Weather Done Better Logo">
-            <h1>Weather Done Better</h1><br>
-            <h2>Serving Select Cities in Southeast Idaho</h2>          
+            <h1>Website Planning Document</h1><br>
+            <h2>Chelsee Jensen</h2>          
         </header>
         <nav>
             <ul>
                 <li><a href="/lesson3/index.html">Home</a></li>
                 <li><a href="/lesson3/target-audience.html">Target Audience</a></li>
                 <li><a href="/lesson3/color-scheme.html">Color Scheme</a></li>
-                <li><a href="/lesson3/typography.html">Typography</a></li>
+                <li><a href="/lesson3/typography.html" class="active">Typography</a></li>
             </ul>
         </nav>
         <main>
             <div>
-
+                <h3>Typography</h3>
             </div>
+            <div>
+                <p>The primary fonts will be Oxygen and Poppins. They both look clean and professional. I appreciate the sans-serif look.</p>
+            </div>
+            <table>
+                <tr>
+                    <th>Section</th>
+                    <th>Font</th>
+                    <th>Font Size</th>
+                    <th>Hex</th>
+                    <th>Sample</th>
+                </tr>
+                <tr>
+                    <td>Site Header</td>
+                    <td>Oxygen</td>
+                    <td>50px</td>
+                    <td>#DDE6F0</td>
+                    <td id="siteHeader">Sample</td>
+                </tr>
+                <tr>
+                    <td>Primary Navigation</td>
+                    <td>Poppins</td>
+                    <td>30px</td>
+                    <td>#232D52</td>
+                    <td id="primaryNav">Sample</td>
+                </tr>
+                <tr>
+                    <td>Footer Navigation</td>
+                    <td>Poppins</td>
+                    <td>20px</td>
+                    <td>#232D52</td>
+                    <td id="footerNav">Sample</td>
+                </tr>
+                <tr>
+                    <td>Heading 1 (h1)</td>
+                    <td>Poppins</td>
+                    <td>30px</td>
+                    <td>#232D52</td>
+                    <td id="h1Sample">Sample</td>
+                </tr>
+                <tr>
+                    <td>Heading 2 (h2)</td>
+                    <td>Poppins</td>
+                    <td>25px</td>
+                    <td>#232D52</td>
+                    <td id="h2Sample">Sample</td>
+                </tr>
+                <tr>
+                    <td>Heading 3 (h3)</td>
+                    <td>Poppins</td>
+                    <td>20px</td>
+                    <td>#232D52</td>
+                    <td id="h3Sample">Sample</td>
+                </tr>
+                <tr>
+                    <td>Paragraph Text (p)</td>
+                    <td>Oxygen</td>
+                    <td>16px</td>
+                    <td>#232D52</td>
+                    <td id="pSample">Sample</td>
+                </tr>
+            </table>
+
         </main>
 
         <footer>
                 &copy; <span id="year"></span> | Chelsee Jensen | Idaho | <a id="byui" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
                 <span id="lastUpdated">Last Updated: </span>
         </footer>
-        <script src="/lesson3/js/dates3.js"></script>
+        <div>
+            <script src="/lesson3/js/dates3.js"></script>
+        </div>
     </body>   
 </html>

@@ -15,24 +15,28 @@
         <link href="https://fonts.googleapis.com/css?family=Oxygen|Poppins&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="lastUpdated()">
         <header>
             <img src="/lesson3/images/WeatherDoneBetterIcon.png" alt="Weather Done Better Logo">
-            <h1>Weather Done Better</h1><br>
-            <h2>Serving Select Cities in Southeast Idaho</h2>          
+            <h1>Website Planning Document</h1>
+            <h2>Chelsee Jensen</h2>       
         </header>
         <nav>
             <ul>
-                <li><a href="/lesson3/index.html">Home</a></li>
+                <li><a href="/lesson3/index.html" class="active">Home</a></li>
                 <li><a href="/lesson3/target-audience.html">Target Audience</a></li>
                 <li><a href="/lesson3/color-scheme.html">Color Scheme</a></li>
                 <li><a href="/lesson3/typography.html">Typography</a></li>
             </ul>
         </nav>
-        <main>
+        <main id="homeContent">
+            <div>
+                <h3>Site Name</h3>
+                <p>Weather Done Better: serving Southeast Idaho</p>
+            </div>
             <div>
                 <h3>Site Purpose</h3>
-                <p>"Purpose of this site."</p>
+                <p>The purpose of this website is to provide the current weather conditions for Southeastern Idaho. It will also provide a forecast for cities including Preston, Soda Springs, and Fish Haven. It will serve as a community resource to keep citizens informed of upcoming events. There will also be a form to collect storm information from users. </p>
             </div>
             <div>
                 <h3>Available Domain Name</h3>
@@ -40,7 +44,7 @@
             </div>
             <div>
                 <h3>Logo</h3>
-                <img src="/lesson3/images/WeatherDoneBetterIcon.png" alt="Weather Done Better Logo">
+                <img class="logo" src="/lesson3/images/WeatherDoneBetterIcon.png" alt="Weather Done Better Logo">
             </div>
         </main>
 
@@ -48,6 +52,8 @@
                 &copy; <span id="year"></span> | Chelsee Jensen | Idaho | <a id="byui" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
                 <span id="lastUpdated">Last Updated: </span>
         </footer>
-        <script src="/lesson3/js/dates3.js"></script>
+        <div>
+            <script src="/lesson3/js/dates3.js"></script>
+        </div>
     </body>   
 </html>

@@ -15,30 +15,58 @@
         <link href="https://fonts.googleapis.com/css?family=Oxygen|Poppins&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="lastUpdated()">
         <header>
             <img src="/lesson3/images/WeatherDoneBetterIcon.png" alt="Weather Done Better Logo">
-            <h1>Weather Done Better</h1><br>
-            <h2>Serving Select Cities in Southeast Idaho</h2>          
+            <h1>Website Planning Document</h1>
+            <h2>Chelsee Jensen</h2>          
         </header>
         <nav>
             <ul>
                 <li><a href="/lesson3/index.html">Home</a></li>
                 <li><a href="/lesson3/target-audience.html">Target Audience</a></li>
-                <li><a href="/lesson3/color-scheme.html">Color Scheme</a></li>
+                <li><a href="/lesson3/color-scheme.html" class="active">Color Scheme</a></li>
                 <li><a href="/lesson3/typography.html">Typography</a></li>
             </ul>
         </nav>
         <main>
             <div>
-
+                <h3>Color Scheme</h3>
             </div>
+            <section>
+                <div>
+                    <h4 id="siteHeader">Site Header</h4>
+                    <p>font color: #DDE6F0, background color: #5B82D4</p>
+                </div>
+                <div>
+                    <h4 id="primaryNav">Navigation</h4>
+                    <p>font color: #232D52, background color: #BAD6EF</p>
+                </div>
+                <div>
+                    <h4 id="activeNav">Navigation Active</h4>
+                    <p>font color: #FEB766, background color: #232D52</p>
+                </div>
+                <div>
+                    <h4 id="hoverNav">Navigation Hover</h4>
+                    <p>font color: #F9E79A, background color: #5B82D4</p>
+                </div>
+                <div>
+                    <h4 id="h1Sample">Headings</h4>
+                    <p>font color: #232D52, background color: #DDE6F0</p>
+                </div>
+                <div>
+                    <h4 id="pSample">Body Copy</h4>
+                    <p>font color: #232D52, background color: #DDE6F0</p>
+                </div>
+            </section>
         </main>
 
         <footer>
                 &copy; <span id="year"></span> | Chelsee Jensen | Idaho | <a id="byui" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
                 <span id="lastUpdated">Last Updated: </span>
         </footer>
-        <script src="/lesson3/js/dates3.js"></script>
+        <div>
+            <script src="/lesson3/js/dates3.js"></script>
+        </div>
     </body>   
 </html>
