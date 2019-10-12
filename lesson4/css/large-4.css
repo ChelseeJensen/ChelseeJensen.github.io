@@ -1,0 +1,16 @@
+/*---------- desktop view (60 em) -----------*/
+@media only screen and (min-width: 60em) {
+    .menu {
+        display: flex;
+    }
+    .menu li:first-child {
+        display: none;
+    }
+    .menu li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .menu li a {
+        color: #232D52;
+    }
+}

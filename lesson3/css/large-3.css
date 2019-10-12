@@ -19,7 +19,14 @@
 @media only screen and (min-width: 60em) {
 	nav a {
 		font-size: 1.1rem;
-	}
+    }
+    nav ul {
+        display: flex;
+        flex-flow: row;
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
