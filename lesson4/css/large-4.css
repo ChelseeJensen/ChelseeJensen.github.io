@@ -3,14 +3,25 @@
     .menu {
         display: flex;
     }
-    .menu li:first-child {
-        display: none;
+        .menu li:first-child {
+            display: none;
+        }
+        .menu li {
+            display: block;
+            flex: 1 1 100%;
+        }
     }
-    .menu li {
-        display: block;
-        flex: 1 1 100%;
+    h1 {
+        font-size: 2rem;
     }
-    .menu li a {
-        color: #232D52;
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .motto {
+        font-size: 1.1rem;
+        margin-top: -5px;
     }
 }

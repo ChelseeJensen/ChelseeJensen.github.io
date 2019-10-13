@@ -1,12 +1,67 @@
 /* ----------- baseline view ------------- */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: ;
+    margin: 0 auto;
+    min-width: 18rem;
+    line-height: 1.5rem;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    padding: .5rem;
+}
+h1 {
+    font-size: 1rem;
+    margin: 1rem;
+}
+h2 {
+    font-size: 1rem;
+}
+h3 {
+    font-size: .80rem;
+}
+
 header {
-    color: #DDE6F0;
+    display: flex;
     background-color: #5B82D4;
     padding: 10px;
+    margin: none;
+}
+header img {
+    width: 60px;
+    height: auto;
+    margin: 15px;
+}
+header, footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: .8rem;
+}
+footer {
+    padding: 10px;
+    margin: .5rem auto;
+    max-width: 70rem;
+    background-color:  #5B82D4;
+    color: #DDE6F0;
+}
+main {
+    text-align: center;
+    margin: .5rem auto;
+    max-width: 70rem;
 }
 nav {
-    margin: 0 auto;
+    margin: none;
     background-color: #BAD6EF;
+}
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-top: -15px;
 }
 .menu {
     list-style: none;
@@ -22,7 +77,7 @@ nav {
 .menu a {
     display: block; 
     text-align: center;
-    color: #DDE6F0;
+    color: #232D52;
     padding: 0.75rem;
 }
 .menu a:hover {
@@ -34,6 +89,14 @@ nav {
     color: #FEB766;
     padding: 0px;
 }
+.contentBox {
+    text-align: left;
+    border: 1px solid #5B82D4;
+    background-color: #DDE6F0;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+
 /*toggle class add*/
 .responsive li {
     display: block;

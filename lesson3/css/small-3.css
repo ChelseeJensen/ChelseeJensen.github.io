@@ -8,14 +8,6 @@ body {
     line-height: 1.5rem;
     font-family: "Oxygen", "Trebuchet MS", Tahoma, sans-serif;
 }
-/*.content {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    font-size: 0.8rem;
-    margin: 0 auto;
-    max-width: 900px;
-}*/
 header, footer {
     padding: 10px;
     align-items: center;

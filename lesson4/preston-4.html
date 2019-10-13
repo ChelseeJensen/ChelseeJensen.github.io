@@ -11,26 +11,27 @@
         <link rel="stylesheet" href="/lesson4/css/large-4.css">
         <link rel="stylesheet" href="/lesson4/css/medium-4.css">
         <link rel="stylesheet" href="/lesson4/css/small-4.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen|Poppins&display=swap">
     </head>
 
     <body onload="lastUpdated()">
         <header>
-            <img src="/lesson4/images/WeatherDoneBetterIcon.jpg" alt="Weather Done Better Logo">
+            <img src="/lesson4/images/WeatherIcon.jpg" alt="Weather Done Better Logo">
             <section>
                 <h1>Weather Done Better</h1>
-                <p>serving Southeast Idaho communities</p>
+                <p class="motto">Trusted by Southeast Idaho communities</p>
             </section>
         </header>
 
         <nav>
             <ul class="menu">
-                <li href="#" onclick="toggleMenu()">Menu</li>
-                <li href="#">Home</li>
-                <li href="#" class="active">Preston</li>
-                <li href="#">Soda Springs</li>
-                <li href="#">Fish Haven</li>
-                <li href="#">Storm Center</li>
-                <li href="#">Gallery</li>
+                <li><a href="#" onclick="toggleMenu()" id="menuLabel">&#9776; Menu</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="preston-4.html" class="active">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
             </ul>
         </nav>
 
@@ -43,7 +44,8 @@
         </main>
 
         <footer>
-
+            &copy; Weather Done Better | Attributions | Chelsee Jensen
+            <p id="currentdate"></p>
         </footer>
         <div>
             <script src="/lesson4/js/dates4.js"></script>
