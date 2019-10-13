@@ -1,10 +1,12 @@
 /* ----------- baseline view ------------- */
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Poppins&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    font-size: ;
+    font-size: 1rem;
     margin: 0 auto;
     min-width: 18rem;
     line-height: 1.5rem;
@@ -15,11 +17,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: .5rem;
 }
 h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 1rem;
 }
 h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 h3 {
     font-size: .80rem;
@@ -29,7 +31,6 @@ header {
     display: flex;
     background-color: #5B82D4;
     padding: 10px;
-    margin: none;
 }
 header img {
     width: 60px;
@@ -55,7 +56,6 @@ main {
     max-width: 70rem;
 }
 nav {
-    margin: none;
     background-color: #BAD6EF;
 }
 .motto {
