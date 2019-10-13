@@ -12,15 +12,15 @@
     header img {
         width: 80px;
     }
+    #menuLabel {
+        display: none;
+    }
     nav ul {
         display: flex;
         padding: 0 40px 0 40px;
     }
     .menu {
         display: flex;
-    }
-    .menu li:first-child {
-        display: none;
     }
     .menu li {
         display: block;

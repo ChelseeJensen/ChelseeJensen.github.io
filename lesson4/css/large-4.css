@@ -3,7 +3,7 @@
     .menu {
         display: flex;
     }
-        .menu li:first-child {
+        #menuLabel {
             display: none;
         }
         .menu li {
