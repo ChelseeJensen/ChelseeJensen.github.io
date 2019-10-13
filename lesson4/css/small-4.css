@@ -84,7 +84,7 @@ nav {
     color: #F9E79A;
     background-color: #5B82D4;
 }
-.active {
+.menu .active {
     background-color: #232D52;
     color: #FEB766;
     padding: 0px;
