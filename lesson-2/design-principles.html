@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Poppins&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="lastUpdated()">
     <header class="header">
         <h1>Design Principles Document</h1>
         <hr>
@@ -85,9 +85,8 @@
         </div>
     </main>
     <footer class="footer">
-        <p> &copy; <span id="copyright_year"></span> | Chelsee Jensen | Idaho | <a id="byui"
-                href="https://www.byui.edu/online">BYUI Online Learning</a></p><br>
-        <p>Last Updated:  <span id="lastUpdated"></span></p>
+        &copy; <span id="year"></span> | Chelsee Jensen | Idaho | <a id="byui" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
+        <span id="lastUpdated">Last Updated: </span>
     </footer>
     <script src="/lesson-2/js/dates-2.js"></script>
 </body>
