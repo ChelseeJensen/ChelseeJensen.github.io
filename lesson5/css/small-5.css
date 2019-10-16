@@ -1,0 +1,124 @@
+/* ----------- baseline view ------------- */
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Poppins&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    margin: 0 auto;
+    min-width: 18rem;
+    line-height: 1.5rem;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    padding: .5rem;
+}
+h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+h2 {
+    font-size: 1.25rem;
+}
+h3 {
+    font-size: .80rem;
+}
+
+header {
+    display: flex;
+    background-color: #5B82D4;
+    padding: 10px;
+}
+header img {
+    width: 60px;
+    height: auto;
+    margin: 15px;
+}
+header, footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: .8rem;
+}
+footer {
+    padding: 10px;
+    margin: .5rem auto;
+    max-width: 70rem;
+    background-color:  #5B82D4;
+    color: #DDE6F0;
+}
+main {
+    text-align: center;
+    margin: .5rem auto;
+    max-width: 70rem;
+}
+nav {
+    background-color: #BAD6EF;
+}
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-top: -15px;
+}
+.menu {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.menu li:first-child {
+    display: block;
+}
+.menu li {
+    display: none;
+}
+.menu a {
+    display: block; 
+    text-align: center;
+    color: #232D52;
+    padding: 0.75rem;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #F9E79A;
+    background-color: #5B82D4;
+}
+.menu .active {
+    background-color: #232D52;
+    color: #FEB766;
+    padding: 0.75rem;
+}
+#heroPic {
+    height: 300px;
+}
+.heroDiv {
+    margin: 8px auto;
+    position: relative;
+}
+.weatherSummary {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    background: radial-gradient(#eee, #4567aa);
+    border: 1px solid #000;
+    padding: 1rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    height: 10rem;
+    width: 20rem;
+}
+
+.contentBox {
+    text-align: left;
+    border: 1px solid #5B82D4;
+    background-color: #DDE6F0;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+
+/*toggle class add*/
+.responsive li {
+    display: block;
+}

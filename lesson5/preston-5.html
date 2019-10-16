@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="Assignment Preston Town Page for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        
+        <title>Chelsee Jensen  |  CIT 230  |  Weather Site  |  Preston Idaho</title>
+
+        <link rel="stylesheet" href="/lesson-2/css/normalize">
+        <link rel="stylesheet" href="/lesson5/css/large-5.css">
+        <link rel="stylesheet" href="/lesson5/css/medium-5.css">
+        <link rel="stylesheet" href="/lesson5/css/small-5.css">
+    </head>
+
+    <body onload="lastUpdated()">
+        <header>
+            <img src="/lesson5/images/WeatherIcon.jpg" alt="Weather Done Better Logo">
+            <section>
+                <h1>Weather Done Better</h1>
+                <p class="motto">Trusted by Southeast Idaho communities</p>
+            </section>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()" id="menuLabel">&#9776; Menu</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="preston-5.html" class="active">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class="heroDiv">
+                <img src="/lesson5/images/HeroPic.gif" alt="Farm Town Picture" id="heroPic">
+                <div class="weatherSummary">
+                    <h3>Weather Summary</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat. 
+                        Posuere morbi leo urna molestie at. 
+                        Accumsan sit amet nulla facilisi morbi tempus iaculis.</p>
+                </div>
+            </div>
+
+            <div class="contentBox">5 Day Forecast</div>
+            
+            <div class="contentBox">Article</div>
+            
+            <div class="contentBox">Contact Information</div>
+        </main>
+
+        <footer>
+            &copy; Weather Done Better | Attributions | Chelsee Jensen
+            <p id="currentdate"></p>
+        </footer>
+        <div>
+            <script src="/lesson5/js/dates5.js"></script>
+        </div>
+    </body>
+
+</html>
