@@ -55,6 +55,18 @@ main {
     margin: .5rem auto;
     max-width: 70rem;
 }
+#bannerad {
+    position: fixed;
+    width: 100%;
+    top: 5px;
+    text-align: center;
+    padding: 10 px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #FEB766;
+    overflow: hidden;
+}
 nav {
     background-color: #BAD6EF;
 }
@@ -90,17 +102,19 @@ nav {
     color: #FEB766;
     padding: 0.75rem;
 }
-#heroPic {
-    height: 300px;
-}
 .heroDiv {
-    margin: 8px auto;
+    width: 100%;
+    overflow: hidden;
     position: relative;
+}
+#heroPic {
+    width: 120%;
+    margin-left: -3rem;
 }
 .weatherSummary {
     position: absolute;
     top: 25px;
-    left: 50px;
+    left: 25px;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
     padding: 1rem;
@@ -109,13 +123,15 @@ nav {
     height: 10rem;
     width: 20rem;
 }
-
 .contentBox {
     text-align: left;
     border: 1px solid #5B82D4;
     background-color: #DDE6F0;
     padding: .5rem;
     margin-top: .5rem;
+}
+#forecastBox {
+    display: none;
 }
 
 /*toggle class add*/

@@ -7,13 +7,17 @@
         
         <title>Chelsee Jensen  |  CIT 230  |  Weather Site  |  Preston Idaho</title>
 
-        <link rel="stylesheet" href="/lesson-2/css/normalize">
-        <link rel="stylesheet" href="/lesson5/css/large-5.css">
-        <link rel="stylesheet" href="/lesson5/css/medium-5.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="/lesson5/css/small-5.css">
+        <link rel="stylesheet" href="/lesson5/css/medium-5.css">
+        <link rel="stylesheet" href="/lesson5/css/large-5.css">
     </head>
 
     <body onload="lastUpdated()">
+        <div id="bannerad" onload="showbannerad()">
+                    Saturday = Preston Pancakes in the Park!<br>
+                    9:00 a.m. Saturday at the city park pavillion.
+        </div>
         <header>
             <img src="/lesson5/images/WeatherIcon.jpg" alt="Weather Done Better Logo">
             <section>
@@ -47,11 +51,29 @@
                 </div>
             </div>
 
-            <div class="contentBox">5 Day Forecast</div>
+            <div class="contentBox" id="forecastBox"><h3>5 Day Forecast</h3></div>
             
-            <div class="contentBox">Article</div>
+            <div class="contentBox">
+                <h3>Quam adipiscing vitae proin</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam id diam. 
+                    Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Arcu risus quis varius quam quisque id. Et tortor at risus viverra adipiscing at in. 
+                    Sit amet est placerat in egestas erat imperdiet sed. Porta nibh venenatis cras sed felis eget velit. Donec massa sapien faucibus et molestie ac feugiat sed lectus. 
+                    Vitae justo eget magna fermentum iaculis. Sit amet purus gravida quis blandit turpis cursus in hac. Vitae tortor condimentum lacinia quis vel eros donec. 
+                    Ut consequat semper viverra nam libero justo. Diam vulputate ut pharetra sit amet aliquam id. Id velit ut tortor pretium viverra suspendisse potenti nullam ac. 
+                    Sed id semper risus in. Ac felis donec et odio pellentesque diam volutpat commodo. At tellus at urna condimentum mattis pellentesque id. 
+                    In tellus integer feugiat scelerisque varius morbi enim nunc. Fames ac turpis egestas integer. Massa id neque aliquam vestibulum.</p>
+            <img src="#" alt="Photograph">
+            </div>
             
-            <div class="contentBox">Contact Information</div>
+            <div class="contentBox">
+                <h3>Weather Done Better</h3>
+                <p>123 N 456 E</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p>800-867-5309</p>
+                <p>weatherdonebetter@gmail.com</p>
+
+            </div>
         </main>
 
         <footer>
@@ -60,6 +82,7 @@
         </footer>
         <div>
             <script src="/lesson5/js/dates5.js"></script>
+            <script src="/lesson5/js/banner5.js"></script>
         </div>
     </body>
 
