@@ -13,11 +13,14 @@
         <link rel="stylesheet" href="/lesson5/css/large-5.css">
     </head>
 
+    <!--*************** Friday Banner *******************-->
     <body onload="lastUpdated()">
-        <div id="bannerad" onload="showbannerad()">
+        <aside id="bannerad" onload="showbannerad()">
                     Saturday = Preston Pancakes in the Park!<br>
                     9:00 a.m. Saturday at the city park pavillion.
-        </div>
+        </aside>
+
+    <!--**************** Header **************************-->
         <header>
             <img src="/lesson5/images/WeatherIcon.jpg" alt="Weather Done Better Logo">
             <section>
@@ -26,6 +29,7 @@
             </section>
         </header>
 
+        <!--********************** Navigation Menu *********************-->
         <nav>
             <ul class="menu">
                 <li><a href="#" onclick="toggleMenu()" id="menuLabel">&#9776; Menu</a></li>
@@ -38,18 +42,31 @@
             </ul>
         </nav>
 
+        <!--************************** Hero Section **********************-->
         <main>
             <h2>Preston Idaho</h2>
             <div class="heroDiv">
                 <img src="/lesson5/images/HeroPic.gif" alt="Farm Town Picture" id="heroPic">
                 <div class="weatherSummary">
-                    <h3>Weather Summary</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat. 
-                        Posuere morbi leo urna molestie at. 
-                        Accumsan sit amet nulla facilisi morbi tempus iaculis.</p>
+                    <div class="weatherTitle"><h3>Weather Summary</h3></div>
+                    <div class="weatherContent1">
+                        Currently: <br>
+                        Temperature: <br>
+                        Humidity: <br>
+                        Precipitation: <br>
+                        Wind Speed: <br>
+                    </div>
+                    <div class="weatherContent2">
+                        Sunny <br>
+                        76 &#8457; <br>
+                        69% <br>
+                        0 inches <br>
+                        5 mph <br>
+                    </div>
                 </div>
             </div>
+
+            <!--******************** 5 Day Forecast ********************-->
 
             <div class="contentBox" id="forecastBox"><h3>5 Day Forecast</h3></div>
             
@@ -65,6 +82,7 @@
             <img src="#" alt="Photograph">
             </div>
             
+            <!--************************ Contact Us ***********************-->
             <div class="contentBox">
                 <h3>Weather Done Better</h3>
                 <p>123 N 456 E</p>
@@ -76,13 +94,13 @@
             </div>
         </main>
 
+        <!--***************************** Footer Content **********************-->
         <footer>
             &copy; Weather Done Better | Attributions | Chelsee Jensen
             <p id="currentdate"></p>
         </footer>
         <div>
             <script src="/lesson5/js/dates5.js"></script>
-            <script src="/lesson5/js/banner5.js"></script>
         </div>
     </body>
 
