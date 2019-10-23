@@ -36,5 +36,28 @@
     .weatherSummary {
         left: 50px;
     }
+    .forecastBox {
+        display: grid;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        width: 500px;
+        height: 100px;
+    }
+    .columnTop {
+        display: flex;
+        background-color: #5B82D4;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .columnMid {
+        display: flex;
+    }
+    .columnBottom {
+        display: flex;
+        border: 1px solid black; 
+    }
 
 }

@@ -58,7 +58,6 @@ main {
 #bannerad {
     position: fixed;
     width: 100%;
-    top: 5px;
     text-align: center;
     padding: 10 px;
     color: black;
@@ -117,11 +116,24 @@ nav {
     left: 25px;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
-    padding: 1rem;
+    padding: .8rem;
     box-shadow: 0 0 30px #111;
     opacity: .8;
-    height: 10rem;
+    height: 12rem;
     width: 20rem;
+}
+.weatherTitle {
+    padding: 0;
+    text-decoration: bold;
+    margin: 0 0 auto;
+}
+.weatherContent1 {
+    padding: 0;
+    display: flex;
+}
+.weatherContent2 {
+    padding: 20;
+    display: flex;
 }
 .contentBox {
     text-align: left;
@@ -130,7 +142,7 @@ nav {
     padding: .5rem;
     margin-top: .5rem;
 }
-#forecastBox {
+.forecastBox {
     display: none;
 }
 

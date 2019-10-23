@@ -15,10 +15,10 @@
 
 <!--******************** Friday Banner *******************-->
     <body onload="lastUpdated()">
-        <aside id="bannerad" onload="showbannerad()">
+        <div id="bannerad" onload="showbannerad()">
                     Saturday = Preston Pancakes in the Park!<br>
                     9:00 a.m. Saturday at the city park pavillion.
-        </aside>
+        </div>
 
 <!--********************** Header **************************-->
         <header>
@@ -68,18 +68,40 @@
 
 <!--******************** 5 Day Forecast ********************-->
 
-            <div class="contentBox" id="forecastBox"><h3>5 Day Forecast</h3></div>
-                <div>
-
-                </div>
+            <div>
+                <section class="forecastBox">
+                    <div class="sectionHeader">5 Day Forecast<div>
+                        <div class="row">
+                            <p class="columnTop">Wed</p>
+                            <p class="columnTop">Thurs</p>
+                            <p class="columnTop">Fri</p>
+                            <p class="columnTop">Sat</p>
+                            <p class="columnTop">Sun</p>
+                        </div class="row">
+                            <p class="columnMid"><img class="forecastImg" src="" alt="Sun Icon"></p>
+                            <p class="columnMid"><img class="forecastImg" scr="" alt="Sun Icon"></p>
+                            <p class="columnMid"><img class="forecastImg" src="" alt="Sun Icon"></p>
+                            <p class="columnMid"><img class="forecastImg" src="" alt="Sun Icon"></p>
+                            <p class="columnMid"><img class="forecastImg" src="" alt="Sun Icon"></p>
+                        </div>
+                        <div class="row">
+                            <p class="columnBottom">67&deg;F</p>
+                            <p class="columnBottom">68&deg;F</p>
+                            <p class="columnBottom">63&deg;F</p>
+                            <p class="columnBottom">65&deg;F</p>
+                            <p class="columnBottom">67&deg;F</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
 <!--******************* Article Section ********************-->
             <div class="contentBox">
                 <section class="article">
-                <img src="#" alt="photograph">
-                <h3>Founders Day Fresco</h3>
-                <h4>by Janica Juarez</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam id diam. 
+                    <img class="articleImg" src="#" alt="photograph">
+                    <h3>Founders Day Fresco</h3>
+                    <h4>by Janica Juarez</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam id diam. 
                     Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Arcu risus quis varius quam quisque id. Et tortor at risus viverra adipiscing at in. 
                     Sit amet est placerat in egestas erat imperdiet sed. Porta nibh venenatis cras sed felis eget velit. Donec massa sapien faucibus et molestie ac feugiat sed lectus. 
                     Vitae justo eget magna fermentum iaculis. Sit amet purus gravida quis blandit turpis cursus in hac. Vitae tortor condimentum lacinia quis vel eros donec. 
@@ -97,7 +119,7 @@
                 <br>
                 <p>800-867-5309</p>
                 <p>weatherdonebetter@gmail.com</p>
-
+                <img class="map" src="#" alt="Preston, Idaho Map">
             </div>
         </main>
 

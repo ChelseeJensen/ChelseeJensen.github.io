@@ -38,12 +38,10 @@ document.getElementById('currentdate').textContent = currentdate;
 
 /* Banner Ad Visibility */
 function showbannerad() {
-    var d = new Date();
-    var x = d.getDay();
-    if(x === 5) {
-        document.getElementById('bannerad').style.display = 'block';
+    if (todaysdate.getDay() === 5) {
+        document.getElementById('bannerad').style.display = "block";
     }
     else {
-        document.getElementById('bannerad').style.display = 'none';
+        document.getElementById('bannerad').style.display = "none";
     }
 }
