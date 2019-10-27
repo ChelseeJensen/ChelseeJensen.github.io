@@ -1,0 +1,29 @@
+/*---------- desktop view (60 em) -----------*/
+@media only screen and (min-width: 60em) {
+    .menu {
+        display: flex;
+    }
+        #menuLabel {
+            display: none;
+        }
+        .menu li {
+            display: block;
+            flex: 1 1 100%;
+        }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .motto {
+        font-size: 1.1rem;
+        margin-top: -5px;
+    }
+    #heroPic {
+        height: 600px;
+    }
+}
