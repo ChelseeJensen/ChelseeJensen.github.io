@@ -1,0 +1,14 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+}
+img[data-src] {
+    filter: blur(0.5em);
+}
+img {
+    grid-column: 1/1;
+    filter: blur(0em);
+    transition: filter .5s;
+}
