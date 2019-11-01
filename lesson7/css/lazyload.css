@@ -3,6 +3,7 @@ body {
     margin: auto;
     padding: 10px;
     display: grid;
+    justify-content: center;
 }
 img[data-src] {
     filter: blur(0.5em);
