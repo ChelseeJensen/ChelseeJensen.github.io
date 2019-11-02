@@ -92,11 +92,12 @@ nav {
 }
 #galleryDiv {
     display: grid;
+    grid-gap: 25px;
+    margin: none;
+}
+.galleryFigure {
     justify-content: center;
     grid-gap: 25px;
-    margin: auto;
-}
-#galleryDiv figure {
     margin: 1.5rem;
     padding: 1rem;
 }
@@ -108,7 +109,7 @@ main img {
     transition: filter .5s;
     max-width: 90%;
 }
-#galleryDiv picture:hover {
+.galleryFigure:hover {
     box-shadow: 0 0 50px #333; 
 }
 
