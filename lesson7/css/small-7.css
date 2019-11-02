@@ -55,17 +55,6 @@ main {
     margin: .5rem auto;
     max-width: 70rem;
 }
-#bannerad {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    color: black;
-    font-size: 1.2rem;
-    font-weight: bold;
-    background-color: #FEB766;
-    overflow: hidden;
-}
 nav {
     background-color: #BAD6EF;
 }
@@ -101,65 +90,28 @@ nav {
     color: #FEB766;
     padding: 0.75rem;
 }
-.heroDiv {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-#heroPic {
-    width: 120%;
-    margin-left: -3rem;
-}
-.weatherSummary {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    background: radial-gradient(#eee, #4567aa);
-    border: 1px solid #000;
-    padding: .8rem;
-    box-shadow: 0 0 30px #111;
-    opacity: .8;
-    height: 12rem;
-    width: 18rem;
-}
-.weatherTitle {
-    padding: 0;
-    text-decoration: bold;
-    margin: 0 0 auto;
-}
-.contentBox {
-    text-align: left;
-    border: 1px solid #5B82D4;
-    background-color: #DDE6F0;
-    padding: .5rem;
-    margin-top: .5rem;
-}
-.forecastBox {
-    display: none;
-}
-.articleImg {
-    text-align: center;
-    width: 80%;
-    align-content: center;
-    box-shadow: 0 0 40px #111;
-}
-.map {
-    display: none;
-}
-.contactInfo {
-    text-align: center;
+#galleryDiv {
+    display: grid;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    grid-gap: 25px;
+    margin: auto;
 }
-.contact {
-    text-align: center;
+#galleryDiv figure {
+    margin: 1.5rem;
+    padding: 1rem;
 }
-.contactPic {
-    width: 50px;
-    border-radius: 15px;
-    border: 5px black solid;
+img[data-src] {
+    filter: blur(0.5em);
 }
+main img {
+    filter: blur(0em);
+    transition: filter .5s;
+    max-width: 90%;
+}
+#galleryDiv picture:hover {
+    box-shadow: 0 0 50px #333; 
+}
+
 
 /*toggle class add*/
 .responsive li {

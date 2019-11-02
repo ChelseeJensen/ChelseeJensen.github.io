@@ -23,7 +23,8 @@
         font-size: 1.1rem;
         margin-top: -5px;
     }
-    #heroPic {
-        height: 600px;
+    #galleryDiv {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 85%;
     }
 }
