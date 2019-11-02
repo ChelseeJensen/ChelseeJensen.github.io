@@ -94,12 +94,13 @@ nav {
     display: grid;
     grid-gap: 25px;
     margin: none;
+    justify-content: center;
+    align-items: center;
 }
 .galleryDiv {
-    justify-content: center;
-    grid-gap: 25px;
     margin: 1.5rem;
     padding: 1rem;
+    background-color: #DDE6F0;
 }
 img[data-src] {
     filter: blur(0.5em);
@@ -108,9 +109,6 @@ main img {
     filter: blur(0em);
     transition: filter .5s;
     max-width: 90%;
-}
-.galleryDiv:hover {
-    box-shadow: 0 0 50px #333; 
 }
 
 

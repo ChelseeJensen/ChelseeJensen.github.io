@@ -25,6 +25,9 @@
     }
     #gallerySection {
         grid-template-columns: 1fr 1fr 1fr;
-        max-width: 100%;
+        grid-gap: 15px;
+    }
+    .galleryDiv:hover {
+        box-shadow: 0 0 50px #333; 
     }
 }

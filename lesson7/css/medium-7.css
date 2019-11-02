@@ -32,6 +32,7 @@
     }
     #gallerySection {
         grid-template-columns: 1fr 1fr;
-        max-width: 100%;
+        max-width: 110%;
+        grid-gap: 20px;
     }
 }
