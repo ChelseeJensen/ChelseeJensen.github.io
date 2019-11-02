@@ -90,12 +90,12 @@ nav {
     color: #FEB766;
     padding: 0.75rem;
 }
-#galleryDiv {
+#gallerySection {
     display: grid;
     grid-gap: 25px;
     margin: none;
 }
-.galleryFigure {
+.galleryDiv {
     justify-content: center;
     grid-gap: 25px;
     margin: 1.5rem;
@@ -109,7 +109,7 @@ main img {
     transition: filter .5s;
     max-width: 90%;
 }
-.galleryFigure:hover {
+.galleryDiv:hover {
     box-shadow: 0 0 50px #333; 
 }
 

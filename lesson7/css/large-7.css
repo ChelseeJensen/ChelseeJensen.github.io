@@ -23,8 +23,8 @@
         font-size: 1.1rem;
         margin-top: -5px;
     }
-    #galleryDiv {
+    #gallerySection {
         grid-template-columns: 1fr 1fr 1fr;
-        max-width: 85%;
+        max-width: 100%;
     }
 }
