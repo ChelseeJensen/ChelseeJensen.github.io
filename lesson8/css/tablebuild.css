@@ -33,3 +33,6 @@ thead, tfoot {
 tbody>tr:nth-child(2n) {
     background-color: #e7f0ed;
 }
+#blackFriday {
+    font-style: italic;
+}

@@ -43,3 +43,8 @@ function showbannerad() {
         document.getElementById('bannerad').innerHTML = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.";
     }
 }
+
+/* Adjust Rating */
+function adjustRating(rating) {
+    document.getElementById("ratingValue").innerHTML = rating;
+}
