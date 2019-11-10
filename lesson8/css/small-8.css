@@ -112,6 +112,11 @@ form label {
     font-size: 1rem;
     padding: .5rem;
 }
+form input {
+    padding: .5rem;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 form label input:required {
     border-left: red solid 6px;
 }
@@ -130,7 +135,8 @@ form input.submitB {
     max-width: 20rem;
 }
 form textarea {
-    height: 5rem;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 fieldset div {
     padding: .5rem;
