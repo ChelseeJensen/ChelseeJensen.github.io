@@ -1,0 +1,158 @@
+/* ----------- baseline view ------------- */
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Poppins&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    margin: 0 auto;
+    min-width: 18rem;
+    line-height: 1.5rem;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    padding: .5rem;
+}
+h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+h2 {
+    font-size: 1.25rem;
+}
+h3 {
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    background-color: #5B82D4;
+    padding: 10px;
+}
+header img {
+    width: 60px;
+    height: auto;
+    margin: 15px;
+}
+header, footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: .8rem;
+}
+footer {
+    padding: 10px;
+    margin: .5rem auto;
+    max-width: 70rem;
+    background-color:  #5B82D4;
+    color: #DDE6F0;
+}
+main {
+    text-align: center;
+    margin: .5rem auto;
+    max-width: 70rem;
+}
+nav {
+    background-color: #BAD6EF;
+}
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-top: -15px;
+}
+.menu {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.menu li:first-child {
+    display: block;
+}
+.menu li {
+    display: none;
+}
+.menu a {
+    display: block; 
+    text-align: center;
+    color: #232D52;
+    padding: 0.75rem;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #F9E79A;
+    background-color: #5B82D4;
+}
+.menu .active {
+    background-color: #232D52;
+    color: #FEB766;
+    padding: 0.75rem;
+}
+/*Form Styling*/
+form {
+    text-align: left;
+}
+form fieldset {
+    margin: 2rem;
+    margin-left: 2rem;
+    border: 1px solid #5B82D4;
+    border-radius: 15px;
+    padding: .5rem;
+    width: 90%;
+}
+form legend {
+    color: #5B82D4;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label {
+    display: block;
+    font-size: 1rem;
+    padding: .5rem;
+}
+form input {
+    padding: .5rem;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form label input:required {
+    border-left: red solid 6px;
+}
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+form input.submitB {
+    border: none;
+    background-color: maroon;
+    color: white;
+    border-radius: 15px;
+    padding: .75rem 1.5rem;
+    margin: 2rem;
+    margin-left: 2rem;
+    width: 96%;
+    max-width: 20rem;
+}
+form textarea {
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+fieldset div {
+    padding: .5rem;
+}
+#thanks {
+    margin: 2rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid  #5B82D4;
+    font-size: 1.5rem;
+    width: 90%;
+    text-align: center;
+}
+
+/*toggle class add*/
+.responsive li {
+    display: block;
+}

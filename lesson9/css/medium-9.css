@@ -1,0 +1,73 @@
+/*---------- tablet view ----------*/
+@media only screen and (min-width: 37.5em) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    header img {
+        width: 80px;
+    }
+    #menuLabel {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        padding: 0 40px 0 40px;
+    }
+    .menu {
+        display: flex;
+    }
+    .menu li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .motto {
+        font-size: 1rem;
+        margin-top: -10px;
+    }
+    #heroPic {
+        height: 450px;
+    }
+    .articleImg {
+        width: 80%;
+    }
+    .map {
+        display: block;
+    }
+    .weatherSummary {
+        left: 50px;
+    }
+    .forecastBox {
+        display: grid;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        width: 500px;
+        height: 100px;
+    }
+    .columnTop {
+        display: flex;
+        background-color: #5B82D4;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .columnMid {
+        display: flex;
+    }
+    .columnBottom {
+        display: flex;
+        border: 1px solid black; 
+    }
+    .contactInfo {
+        text-align: center;
+
+    }
+
+}
