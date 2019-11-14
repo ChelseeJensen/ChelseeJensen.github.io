@@ -1,0 +1,60 @@
+/* ----------- baseline view ------------- */
+@import url('https://fonts.googleapis.com/css?family=RobotoSlab|Roboto&display=swap');
+
+
+body {
+    text-align: center;
+}
+div {
+    display: grid;
+    grid-template-columns: 100%;
+}
+main {
+    box-shadow: 0 0 30px #333;
+    background-color: lightgray;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    color: #3f3669;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    width: 60%;
+    margin: 5px auto;
+    box-shadow: 0 0 30px #333;
+    display: block;
+}
+section {
+    background-color: #b5addb;
+    padding: .5rem;
+    border: 1px solid #3f3669;
+    margin: 5px;
+}
+footer {
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+/*---------- tablet view ----------*/
+@media only screen and (min-width: 37.5em) {
+.cards {
+    grid-template-columns: 50% 50%;
+}    
+}
+
+
+/*---------- desktop view (60 em) -----------*/
+@media only screen and (min-width: 60em) {
+.cards {
+    grid-template-columns: 25% 25% 25% 25%;
+}
