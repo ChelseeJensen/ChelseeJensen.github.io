@@ -30,44 +30,18 @@
         font-size: 1rem;
         margin-top: -10px;
     }
-    #heroPic {
-        height: 450px;
-    }
-    .articleImg {
-        width: 80%;
-    }
-    .map {
-        display: block;
-    }
-    .weatherSummary {
-        left: 50px;
-    }
-    .forecastBox {
-        display: grid;
-    }
-    .row {
+    main section {
         display: flex;
-        align-items: center;
-        border: 1px solid black;
-        width: 500px;
-        height: 100px;
-    }
-    .columnTop {
-        display: flex;
-        background-color: #5B82D4;
         text-align: center;
-        border: 1px solid black;
     }
-    .columnMid {
-        display: flex;
+    main section:nth-child(even) {
+        flex-direction: row-reverse;
     }
-    .columnBottom {
-        display: flex;
-        border: 1px solid black; 
+    main h3 {
+        font-size: 1.5rem;
     }
-    .contactInfo {
-        text-align: center;
-
+    main h4 { 
+        font-size: 1rem;
     }
 
 }

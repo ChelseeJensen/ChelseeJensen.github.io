@@ -23,7 +23,14 @@
         font-size: 1.1rem;
         margin-top: -5px;
     }
-    #heroPic {
-        height: 600px;
+    main div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main section {
+        display: grid;
+    }
+    main section div {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }

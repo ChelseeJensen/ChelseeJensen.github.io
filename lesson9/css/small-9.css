@@ -26,6 +26,10 @@ h2 {
 h3 {
     font-size: 1rem;
 }
+main h4 {
+    font-style: italic;
+    font-size: .75rem;
+}
 
 header {
     display: flex;
@@ -90,13 +94,29 @@ nav {
     color: #FEB766;
     padding: 0.75rem;
 }
-.towninfo {
+main div {
     display: grid;
+    grid-template-columns: 100%;
     margin-bottom: 10px;
 }
 main section {
+    display: grid;
     align-items: center;
+    box-shadow: 0 0 20px #444;
     background-color: #DDE6F0;
+    border: 1px black solid;
+    margin: 1rem;
+    padding: 1rem;
+}
+main img {
+    margin: .5rem auto;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px #444;
+}
+main p {
+    padding: .5rem;
 }
 
 /*toggle class add*/
