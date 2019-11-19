@@ -26,7 +26,6 @@ h2 {
 h3 {
     font-size: 1rem;
 }
-
 header {
     display: flex;
     background-color: #5B82D4;
@@ -107,7 +106,7 @@ nav {
     position: relative;
 }
 #heroPic {
-    width: 120%;
+    width: 110%;
     margin-left: -3rem;
 }
 .weatherSummary {
@@ -124,7 +123,7 @@ nav {
 }
 .weatherTitle {
     padding: 0;
-    text-decoration: bold;
+    font-weight: bold;
     margin: 0 0 auto;
 }
 .contentBox {
