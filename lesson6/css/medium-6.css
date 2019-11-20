@@ -25,6 +25,7 @@
     .menu li {
         display: block;
         flex: 1 1 100%;
+        justify-content: center;
     }
     .motto {
         font-size: 1rem;
@@ -44,26 +45,41 @@
     }
     .forecastBox {
         display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr 2fr 1fr;
+        row-gap: none;
+        margin: auto;
+        padding: 1em;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-collapse: collapse;
     }
-    .row {
+   /* .row {
         display: flex;
         align-items: center;
         border: 1px solid black;
         width: 500px;
         height: 100px;
-    }
+    } */
     .columnTop {
-        display: flex;
+        font-size: 1.75em;
         background-color: #5B82D4;
         text-align: center;
         border: 1px solid black;
+        color: white;
+        padding: 1em;
+        row-gap: none;
     }
     .columnMid {
-        display: flex;
+        border: 1px solid black;
+        padding: 3em;
+        row-gap: none;
     }
     .columnBottom {
-        display: flex;
+        padding: 1.5em;
         border: 1px solid black; 
+        row-gap: none;
     }
     .contactInfo {
         text-align: center;

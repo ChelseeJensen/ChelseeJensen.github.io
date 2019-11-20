@@ -1,9 +1,9 @@
 /*Windchill Calculation*/
 function findValues() {
-    var tempF = document.getElementById('currentTemp').nodeValue;
-    var speed = document.getElementById('currentWindSpeed').nodeValue;
+    var tempF = document.getElementById('currentTemp').textContent;
+    var speed = document.getElementById('currentWindSpeed').textContent;
     var output = windChill(tempF, speed);
-    document.getElementById('windchillOutput').innerHTML = output;
+    document.getElementById('windchillOutput').innerHTML = Math.round(output);
 }
 
 function windChill(tempF, speed) {

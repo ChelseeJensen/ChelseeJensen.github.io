@@ -14,8 +14,8 @@
     </head>
 
 <!--******************** Friday Banner *******************-->
-    <body onload="lastUpdated()">
-        <div id="bannerad" onload="showbannerad()" hidden>
+    <body onload="bodyOnload()">
+        <div id="bannerad" hidden>
                     Saturday = Preston Pancakes in the Park!<br>
                     9:00 a.m. Saturday at the city park pavillion.
         </div>
@@ -54,12 +54,24 @@
                 </figure>
                 <div class="weatherSummary">
                     <div class="weatherTitle"><h3>Weather Summary</h3></div>
-                    <div class="weatherInfo" onclick="findValues()">
-                        <p>Currently: <span id="currentCondition">Sunny</span></p>
-                        <p>Temperature: <span id="currentTemp">76</span> &#8457;</p>
-                        <p>Wind Chill: <span id="currentPrecip"><div id="windchillOutput"></div></span></p>
-                        <p>Humidity: <span id="currentHumidity">69%</span></p>
-                        <p>Wind Speed: <span id="currentWindSpeed">5</span> mph</p>
+                        <div class="weatherInfo">
+                        <p class="item1">Currently: </p>
+                        <p class="item2" id="currentCondition">Sunny</p>
+                        <p class="item3">Temperature: </p>
+                        <p class="item4"><span id="currentTemp">76</span> &#8457;</p>
+                        <p class="item5">Wind Chill: </p>
+                        <p class="item6"><span id="windchillOutput"></span> &#8457;</p>
+                        <p class="item7">Humidity: </p>
+                        <p class="item8" id="currentHumidity">69%</p>
+                        <p class="item9">Wind Speed: </p>
+                        <p class="item10"><span id="currentWindSpeed">5</span></p>
+
+
+                        <!--<p>Currently: <span id="">Sunny</span></p>
+                        <p>Temperature: <span id="">76</span> &#8457;</p>
+                        <p>Wind Chill: <span id="currentPrecip"><div id=""></div></span></p>
+                        <p>Humidity: <span id="">69%</span></p>
+                        <p>Wind Speed: <span id="">5</span> mph</p>-->
                     </div>
                 </div>
             </div>
@@ -67,31 +79,28 @@
 <!--******************** 5 Day Forecast ********************-->
 
             <div>
-                <section class="forecastBox">
-                    <div class="sectionHeader"><h3>5 Day Forecast</h3>
-                        <div class="row">
+                <div class="sectionHeader"><h3>5 Day Forecast</h3>
+                    <section class="forecastBox">
                             <p class="columnTop">Wed</p>
                             <p class="columnTop">Thurs</p>
                             <p class="columnTop">Fri</p>
                             <p class="columnTop">Sat</p>
                             <p class="columnTop">Sun</p>
-                        </div>
-                        <div class="row">
+
                             <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
                             <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
                             <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
                             <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
                             <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
-                        </div>
-                        <div class="row">
+
                             <p class="columnBottom">67&deg;F</p>
                             <p class="columnBottom">68&deg;F</p>
                             <p class="columnBottom">63&deg;F</p>
                             <p class="columnBottom">65&deg;F</p>
                             <p class="columnBottom">67&deg;F</p>
-                        </div>
-                    </div>
-                </section>
+
+                    </section>
+                </div>
             </div>
 
 <!--******************* Article Section ********************-->
@@ -130,13 +139,15 @@
 
 <!--************************** Footer Content **********************-->
         <footer>
-            &copy; Weather Done Better | Attributions | Chelsee Jensen
+            &copy; Weather Done Better | Attributions | <a href="../index.html">Chelsee Jensen</a>
             <p id="currentdate"></p>
         </footer>
         <div>
             <script src="/lesson6/js/dates6.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
             <script src="/lesson6/js/webfont.js"></script>
+            <script src="js/onload.js"></script>
+            <script src="js/windchill.js"></script>
         </div>
     </body>
 
