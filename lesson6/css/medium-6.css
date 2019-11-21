@@ -56,7 +56,6 @@
     .forecastBox {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-       /* grid-template-rows: 1fr 2fr 1fr; */
         row-gap: none;
         margin: auto;
         padding: 1em;
@@ -64,26 +63,27 @@
         text-align: center;
         align-items: center;
         border-collapse: collapse;
+        max-width: 75%;
     }
     .columnTop {
-        font-size: 1.75em;
+        font-size: 1.5em;
         background-color: #5B82D4;
         text-align: center;
         border: 1px solid darkgrey;
         border-collapse: collapse;
         color: white;
-        padding: 1em;
+        padding: .5em;
         row-gap: none;
     }
     .columnMid {
         border-left: 1px solid darkgrey;
         border-right: 1px solid darkgrey;
         border-collapse: collapse;
-        padding: 3em;
+        padding: 1.5em;
         row-gap: none;
     }
     .columnBottom {
-        padding: 1.8em;
+        padding: 1em;
         border-left: 1px solid darkgrey; 
         border-right: 1px solid darkgrey;
         border-bottom: 1px solid darkgrey;  
