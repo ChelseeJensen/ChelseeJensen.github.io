@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="Assignment Home Page for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        
+        <title>Chelsee Jensen  |  CIT 230  |  Weather Site  |  Home Page</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="/lesson11/css/small.css">
+        <link rel="stylesheet" href="/lesson11/css/medium.css">
+        <link rel="stylesheet" href="/lesson11/css/large.css">
+    </head>
+
+<!--********************** Header **************************-->
+    <body>  
+        <header>
+            <img src="/lesson6/images/WeatherIcon.png" alt="Weather Done Better Logo">
+            <section>
+                <h1>Weather Done Better</h1>
+                <p class="motto">Trusted by Southeast Idaho communities</p>
+            </section>
+        </header>
+
+<!--********************** Navigation Menu *********************-->
+        <nav>
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()" id="menuLabel">&#9776; Menu</a></li>
+                <li><a href="/lesson11/index.html" class="active">Home</a></li>
+                <li><a href="/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson11/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+<!--************************** Gallery Images **********************-->
+        <main>
+            <div class="towninfo"></div>
+        </main>
+
+<!--************************** Footer Content **********************-->
+        <footer>
+            &copy; Weather Done Better | Attributions | <a href="../index.html">Chelsee Jensen</a>
+            <p id="currentdate"></p>
+        </footer>
+        <div>
+            <script src="/lesson11/js/dates.js"></script>
+            <script src="/lesson11/js/towninfo.js"></script>
+        </div>
+    </body>
+
+</html>

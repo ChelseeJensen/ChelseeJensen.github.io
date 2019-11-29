@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="Assignment Preston Town Page for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        
+        <title>Chelsee Jensen  |  CIT 230  |  Weather Site  |  Gallery</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="/lesson11/css/small.css">
+        <link rel="stylesheet" href="/lesson11/css/medium.css">
+        <link rel="stylesheet" href="/lesson11/css/large.css">
+    </head>
+
+<!--********************** Header **************************-->
+    <body>  
+        <header>
+            <img src="/lesson6/images/WeatherIcon.png" alt="Weather Done Better Logo">
+            <section>
+                <h1>Weather Done Better</h1>
+                <p class="motto">Trusted by Southeast Idaho communities</p>
+            </section>
+        </header>
+
+<!--********************** Navigation Menu *********************-->
+        <nav>
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()" id="menuLabel">&#9776; Menu</a></li>
+                <li><a href="/lesson9/index.html">Home</a></li>
+                <li><a href="/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson11/gallery.html" class="active">Gallery</a></li>
+            </ul>
+        </nav>
+
+<!--************************** Gallery Images **********************-->
+        <main>
+            <h1>Weather Gallery</h1>
+                <section id="gallerySection"></div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/autumntree.jpg" alt="Autumn Tree">
+                        </picture></br>
+                            Beautiful Tree in Autumn
+                    </div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/barn.jpg" alt="Farm in Sunshine">
+                        </picture></br>
+                            Sunny Evening on a Farm
+                    </div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/frozenwater.jpg" alt="Frozen trees and river">
+                        </picture></br>
+                            Trees Covered in Ice
+                    </div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/coldfarm.jpg" alt="Snow covered farm">
+                        </picture></br>
+                            Snow Covered Farm
+                    </div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/rainbowfarm.jpg" alt="Rainbow over farmland">
+                        </picture></br>
+                            Rainbow Over Farmland
+                    </div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/lightning.jpg" alt="Lightning storm">
+                        </picture></br>
+                            Lightning Storm
+                    </div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/bluesky.jpg" alt="Bright Blue Sky">
+                        </picture></br>
+                            Bright Blue Sky
+                    </div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/doubleRainbow.jpg" alt="Double Rainbow over farm">
+                        </picture></br>
+                            Double Rainbow Over Farmland
+                    </div>
+                    <div class="galleryDiv">
+                        <picture>
+                            <img src="images/largeplaceholder.jpg" data-src="/lesson7/images/sunnyTulips.jpg" alt="Yellow Tulip Field in the Sunshine">
+                        </picture></br>
+                            Yellow Tulip Field in the Sunshine
+                    </div>
+                </section>
+        </main>
+
+<!--************************** Footer Content **********************-->
+        <footer>
+            &copy; Weather Done Better | Attributions | Chelsee Jensen
+            <p id="currentdate"></p>
+        </footer>
+        <div>
+            <script src="/lesson11/js/dates.js"></script>
+            <script src="/lesson11/js/lazyload.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="js/webfont.js"></script>
+        </div>
+    </body>
+
+</html>

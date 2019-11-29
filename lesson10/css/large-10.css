@@ -26,6 +26,9 @@
     #heroPic {
         height: 600px;
     }
+    .articleImg {
+        max-width: 800px;
+    }
     .contactInfo {
         padding-left: 25rem;
     }

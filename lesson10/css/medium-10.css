@@ -41,6 +41,7 @@
         width: 80%;
         float: right;
         margin: 1em;
+        max-width: 600px;
     }
     .map {
         display: block;
@@ -51,44 +52,7 @@
         left: 50px;
     }
     .weatherBox {
-        display: grid;
-    }
-    .forecastBox {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-       /* grid-template-rows: 1fr 2fr 1fr; */
-        row-gap: none;
-        margin: auto;
-        padding: 1em;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        border-collapse: collapse;
-    }
-    .columnTop {
-        font-size: 1.75em;
-        background-color: #5B82D4;
-        text-align: center;
-        border: 1px solid darkgrey;
-        border-collapse: collapse;
-        color: white;
-        padding: 1em;
-        row-gap: none;
-    }
-    .columnMid {
-        border-left: 1px solid darkgrey;
-        border-right: 1px solid darkgrey;
-        border-collapse: collapse;
-        padding: 3em;
-        row-gap: none;
-    }
-    .columnBottom {
-        padding: 1.8em;
-        border-left: 1px solid darkgrey; 
-        border-right: 1px solid darkgrey;
-        border-bottom: 1px solid darkgrey;  
-        border-collapse: collapse;
-        row-gap: none;
+        display: block;
     }
     .contactInfo {
         justify-content: space-evenly;

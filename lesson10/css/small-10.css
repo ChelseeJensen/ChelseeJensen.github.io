@@ -186,7 +186,46 @@ nav {
 }
 .weatherBox {
     display: none;
+    margin: 1rem;
+    padding: .5rem;
+    border-collapse: collapse;
 }
+div.weatherBox h3 {
+    font-size: 1.5rem;
+}
+section.forecastBox {
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5, 20%);
+    border: 1px solid darkgrey;
+    background-color: #DDE6F0;
+}
+section.forecastBox div.columnTop {
+    text-align: center;
+    width: 99%;
+    line-height: 2rem;
+    font-weight: bold;
+    background-color: #5B82D4;
+    border: 1px solid darkgrey;
+    color: white;
+    padding: 1rem 0 1rem 0;
+}
+section.forecastBox div.forecastIcons img {
+    padding: 1.5rem;
+    border-right: 1px solid darkgrey;
+}
+section.forecastBox div.forecastStats {
+    display: inline;
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid darkgrey;
+}
+/*.icon {
+    margin: 0 auto;
+    width: 50%;
+}*/
 .articleImg {
     text-align: center;
     width: 80%;

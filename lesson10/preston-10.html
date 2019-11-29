@@ -14,7 +14,7 @@
     </head>
 
 <!--******************** Friday Banner *******************-->
-    <body onload="bodyOnload()">
+    <body onload="showbannerad()">
         <div id="bannerad" hidden>
                     Saturday = Preston Pancakes in the Park!<br>
                     9:00 a.m. Saturday at the city park pavillion.
@@ -47,24 +47,24 @@
             <h2>Preston Idaho</h2>
             <div class="heroDiv">
                 <figure class="myPhoto">
-                    <img src="/lesson10/images/heropic.jpg" alt="Farm Town Picture" sizes="60vw" id="heroPic"
-                    srcset="/lesson10/images/hero1small.jpg 400w, 
-                    /lesson6/images/hero2medium.jpg 800w,
-                    /lesson6/images/hero3large.jpg 1200w">
+                    <img src="/lesson10/images/preston-1100.jpg" alt="Farm Town Picture" sizes="60vw" id="heroPic"
+                    srcset="/lesson10/images/preston-500.jpg 500w, 
+                    /lesson10/images/preston-800.jpg 800w,
+                    /lesson10/images/preston-1100.jpg 1100w">
                 </figure>
                 <div class="weatherSummary">
                     <div class="weatherTitle"><h3>Weather Summary</h3></div>
                         <div class="weatherInfo">
                         <p class="item1">Currently: </p>
-                        <p class="item2" id="currentCondition">Sunny</p>
-                        <p class="item3">Temperature: </p>
-                        <p class="item4"><span id="currentTemp">76</span> &#8457;</p>
+                        <p class="item2"><span id="current-temp"></span> &#8457;</p>
+                        <p class="item3">High: </p>
+                        <p class="item4"><span id="high-temp"></span> &#8457;</p>
                         <p class="item5">Wind Chill: </p>
                         <p class="item6"><span id="windchillOutput"></span> &#8457;</p>
                         <p class="item7">Humidity: </p>
-                        <p class="item8" id="currentHumidity">69%</p>
+                        <p class="item8"><span id="current-humidity"></span> %</p>
                         <p class="item9">Wind Speed: </p>
-                        <p class="item10"><span id="currentWindSpeed">5</span> mph</p>
+                        <p class="item10"><span id="currentWindSpeed"></span> mph</p>
                     </div>
                 </div>
             </div>
@@ -72,28 +72,29 @@
 <!--******************** 5 Day Forecast ********************-->
 
             <div class="weatherBox">
-                <div class="sectionHeader"><h3>5 Day Forecast</h3>
+                <h3>5 Day Forecast</h3>
                     <section class="forecastBox">
-                            <p class="columnTop">Wed</p>
-                            <p class="columnTop">Thurs</p>
-                            <p class="columnTop">Fri</p>
-                            <p class="columnTop">Sat</p>
-                            <p class="columnTop">Sun</p>
+                        <!-- Top Row -->
+                        <div class="columnTop" id="name0"></div>
+                        <div class="columnTop" id="name1"></div>
+                        <div class="columnTop" id="name2"></div>
+                        <div class="columnTop" id="name3"></div>
+                        <div class="columnTop" id="name4"></div>
 
-                            <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
-                            <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
-                            <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
-                            <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
-                            <p class="columnMid"><img class="forecastImg" src="/lesson6/images/sunicon.png" alt="Sun Icon"></p>
+                        <!-- Icons -->
+                        <div class="forecastIcons"><img id="image0" src="#" alt="weather icon"></div>
+                        <div class="forecastIcons"><img id="image1" src="#" alt="weather icon"></div>
+                        <div class="forecastIcons"><img id="image2" src="#" alt="weather icon"></div>
+                        <div class="forecastIcons"><img id="image3" src="#" alt="weather icon"></div>
+                        <div class="forecastIcons"><img id="image4" src="#" alt="weather icon"></div>
 
-                            <p class="columnBottom">67&deg;F</p>
-                            <p class="columnBottom">68&deg;F</p>
-                            <p class="columnBottom">63&deg;F</p>
-                            <p class="columnBottom">65&deg;F</p>
-                            <p class="columnBottom">67&deg;F</p>
-
+                        <!-- Temperature -->
+                        <div class="forecastStats"><span id="temp0"></span>&deg;F</div>
+                        <div class="forecastStats"><span id="temp1"></span>&deg;F</div>
+                        <div class="forecastStats"><span id="temp2"></span>&deg;F</div>
+                        <div class="forecastStats"><span id="temp3"></span>&deg;F</div>
+                        <div class="forecastStats"><span id="temp4"></span>&deg;F</div>
                     </section>
-                </div>
             </div>
 
 <!--******************* Article Section ********************-->
@@ -131,15 +132,14 @@
 
 <!--************************** Footer Content **********************-->
         <footer>
-            &copy; Weather Done Better | Attributions | <a href="../index.html">Chelsee Jensen</a>
+            &copy; Weather Done Better | Attributions: Weather Provided by <a href="OpenWeatherMap.org">OpenWeatherMap.org</a> | <a href="../index.html">Chelsee Jensen</a>
             <p id="currentdate"></p>
         </footer>
         <div>
             <script src="/lesson10/js/dates10.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
             <script src="/lesson10/js/webfont.js"></script>
-            <script src="/lesson10/js/onload.js"></script>
-            <script src="/lesson10/js/windchill.js"></script>
+            <script src="/lesson10/js/weatherapi.js"></script>
         </div>
     </body>
 
