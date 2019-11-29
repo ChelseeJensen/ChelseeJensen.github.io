@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="Assignment Preston Town Page for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        
+        <title>Chelsee Jensen  |  CIT 230  |  Weather Site  |  Preston Idaho</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="/lesson10/css/small-10.css">
+        <link rel="stylesheet" href="/lesson10/css/medium-10.css">
+        <link rel="stylesheet" href="/lesson10/css/large-10.css">
+    </head>
+
+<!--******************** Friday Banner *******************-->
+    <body onload="showbannerad()">
+        <div id="bannerad" hidden>
+                    Saturday = Preston Pancakes in the Park!<br>
+                    9:00 a.m. Saturday at the city park pavillion.
+        </div>
+
+<!--********************** Header **************************-->
+        <header>
+            <img src="/lesson10/images/weathericon.png" alt="Weather Done Better Logo">
+            <section>
+                <h1>Weather Done Better</h1>
+                <p class="motto">Trusted by Southeast Idaho communities</p>
+            </section>
+        </header>
+
+<!--********************** Navigation Menu *********************-->
+        <nav>
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()" id="menuLabel">&#9776; Menu</a></li>
+                <li><a href="/lesson9/index.html">Home</a></li>
+                <li><a href="preston-6.html" class="active">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+<!--************************** Hero Section **********************-->
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class="heroDiv">
+                <figure class="myPhoto">
+                    <img src="/lesson10/images/preston-1100.jpg" alt="Farm Town Picture" sizes="60vw" id="heroPic"
+                    srcset="/lesson10/images/preston-500.jpg 500w, 
+                    /lesson10/images/preston-800.jpg 800w,
+                    /lesson10/images/preston-1100.jpg 1100w">
+                </figure>
+                <div class="weatherSummary">
+                    <div class="weatherTitle"><h3>Weather Summary</h3></div>
+                        <div class="weatherInfo">
+                        <p class="item1">Currently: </p>
+                        <p class="item2"><span id="current-temp"></span> &#8457;</p>
+                        <p class="item3">High: </p>
+                        <p class="item4"><span id="high-temp"></span> &#8457;</p>
+                        <p class="item5">Wind Chill: </p>
+                        <p class="item6"><span id="windchillOutput"></span> &#8457;</p>
+                        <p class="item7">Humidity: </p>
+                        <p class="item8"><span id="current-humidity"></span> %</p>
+                        <p class="item9">Wind Speed: </p>
+                        <p class="item10"><span id="currentWindSpeed"></span> mph</p>
+                    </div>
+                </div>
+            </div>
+
+<!--******************** 5 Day Forecast ********************-->
+
+            <div class="weatherBox">
+                <h3>5 Day Forecast</h3>
+                    <section class="forecastBox">
+                        <!-- Top Row -->
+                        <div class="columnTop" id="name0"></div>
+                        <div class="columnTop" id="name1"></div>
+                        <div class="columnTop" id="name2"></div>
+                        <div class="columnTop" id="name3"></div>
+                        <div class="columnTop" id="name4"></div>
+
+                        <!-- Icons -->
+                        <div class="forecastIcons"><img id="image0" src="#" alt="weather icon"></div>
+                        <div class="forecastIcons"><img id="image1" src="#" alt="weather icon"></div>
+                        <div class="forecastIcons"><img id="image2" src="#" alt="weather icon"></div>
+                        <div class="forecastIcons"><img id="image3" src="#" alt="weather icon"></div>
+                        <div class="forecastIcons"><img id="image4" src="#" alt="weather icon"></div>
+
+                        <!-- Temperature -->
+                        <div class="forecastStats"><span id="temp0"></span>&deg;F</div>
+                        <div class="forecastStats"><span id="temp1"></span>&deg;F</div>
+                        <div class="forecastStats"><span id="temp2"></span>&deg;F</div>
+                        <div class="forecastStats"><span id="temp3"></span>&deg;F</div>
+                        <div class="forecastStats"><span id="temp4"></span>&deg;F</div>
+                    </section>
+            </div>
+
+<!--******************* Article Section ********************-->
+            <div class="contentBox">
+                <section class="article">
+                    <img class="articleImg" src="/lesson10/images/preston-article-c.jpg" alt="People Talking Outdoors">
+                    <h3>Founders Day Fresco</h3>
+                    <h4>by Janica Juarez</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam id diam. 
+                    Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Arcu risus quis varius quam quisque id. Et tortor at risus viverra adipiscing at in. 
+                    Sit amet est placerat in egestas erat imperdiet sed. Porta nibh venenatis cras sed felis eget velit. Donec massa sapien faucibus et molestie ac feugiat sed lectus. 
+                    Vitae justo eget magna fermentum iaculis. Sit amet purus gravida quis blandit turpis cursus in hac. Vitae tortor condimentum lacinia quis vel eros donec. 
+                    Ut consequat semper viverra nam libero justo. Diam vulputate ut pharetra sit amet aliquam id. Id velit ut tortor pretium viverra suspendisse potenti nullam ac. 
+                    Sed id semper risus in. Ac felis donec et odio pellentesque diam volutpat commodo. At tellus at urna condimentum mattis pellentesque id. 
+                    In tellus integer feugiat scelerisque varius morbi enim nunc. Fames ac turpis egestas integer. Massa id neque aliquam vestibulum.</p>
+                </section>
+            </div>
+            
+<!--************************ Contact Us ***********************-->
+            <div class="contentBox clear">
+                <section class="contactInfo">
+                    <h3>Weather Done Better</h3>
+                    <p>123 N 456 E</p>
+                    <p>Preston, ID 83263</p>
+                    <p class="contact">
+                        <img class="contactPic" src="/lesson10/images/phone.png" alt="phone Icon"><label>800-867-5309</label></p>
+                    <p class="contact">
+                        <img class="contactPic" src="/lesson10/images/email.png" alt="email Icon"><label>weatherdonebetter@gmail.com</label></p>
+                    <span>
+                        <img class="map" src="/lesson10/images/prestonstaticmap.png" alt="Preston, Idaho Map">
+                    </span>
+                </section>
+            </div>
+        </main>
+
+<!--************************** Footer Content **********************-->
+        <footer>
+            &copy; Weather Done Better | Attributions: Weather Provided by <a href="OpenWeatherMap.org">OpenWeatherMap.org</a> | <a href="../index.html">Chelsee Jensen</a>
+            <p id="currentdate"></p>
+        </footer>
+        <div>
+            <script src="/lesson10/js/dates10.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="/lesson10/js/webfont.js"></script>
+            <script src="/lesson10/js/weatherapi.js"></script>
+        </div>
+    </body>
+
+</html>
