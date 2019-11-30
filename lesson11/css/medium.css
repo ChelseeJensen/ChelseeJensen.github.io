@@ -58,5 +58,19 @@
         justify-content: space-evenly;
         padding-left: 15rem;
     }
+    /*   Home Page index.html    */
+    main div.towninfo section {
+        display: flex;
+        text-align: center;
+    }
+    main div.towninfo section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    main div.towninfo h3 {
+        font-size: 1.5rem;
+    }
+    main div.towninfo h4 { 
+        font-size: 1rem;
+    }
 
 }

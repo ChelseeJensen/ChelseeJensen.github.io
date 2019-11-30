@@ -32,4 +32,15 @@
     .contactInfo {
         padding-left: 25rem;
     }
+    /*   Home Page  index.html    */
+    main div.towninfo {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main div.towninfo section {
+        display: grid;
+    }
+    main div.towninfo section div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
