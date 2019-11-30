@@ -254,6 +254,33 @@ section.forecastBox div.forecastStats {
     border: 3px black solid;
 }
 
+/* Home Page index.html */
+main div .towninfo {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 10px;
+}
+main div .towninfo section {
+    display: grid;
+    align-items: center;
+    box-shadow: 0 0 20px #444;
+    background-color: #DDE6F0;
+    border: 1px black solid;
+    margin: 1rem;
+    padding: 1rem;
+}
+main div .towninfo img {
+    margin: .5rem auto;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px #444;
+}
+main div .towninfo p {
+    padding: .5rem;
+}
+
+
 /*toggle class add*/
 .responsive li {
     display: block;
