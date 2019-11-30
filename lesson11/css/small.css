@@ -255,12 +255,12 @@ section.forecastBox div.forecastStats {
 }
 
 /* Home Page index.html */
-main div .towninfo {
+main div.towninfo {
     display: grid;
     grid-template-columns: 100%;
     margin-bottom: 10px;
 }
-main div .towninfo section {
+main div.towninfo section {
     display: grid;
     align-items: center;
     box-shadow: 0 0 20px #444;
@@ -269,14 +269,14 @@ main div .towninfo section {
     margin: 1rem;
     padding: 1rem;
 }
-main div .towninfo img {
+main div.towninfo img {
     margin: .5rem auto;
     width: 100%;
     height: auto;
     max-width: 400px;
     box-shadow: 0 0 10px #444;
 }
-main div .towninfo p {
+main div.towninfo p {
     padding: .5rem;
 }
 
