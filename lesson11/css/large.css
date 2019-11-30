@@ -32,6 +32,8 @@
     .contactInfo {
         padding-left: 25rem;
     }
+
+
     /*   Home Page  index.html    */
     main div.towninfo {
         grid-template-columns: 1fr 1fr 1fr;
@@ -42,5 +44,15 @@
     main div.towninfo section div {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+
+    /*   Gallery Page   */
+    #gallerySection {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+    .galleryDiv:hover {
+        box-shadow: 0 0 50px #333; 
     }
 }

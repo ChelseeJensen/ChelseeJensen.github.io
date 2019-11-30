@@ -280,6 +280,90 @@ main div.towninfo p {
     padding: .5rem;
 }
 
+/*Form Styling*/
+form {
+    text-align: left;
+}
+form fieldset {
+    margin: 2rem;
+    margin-left: 2rem;
+    border: 1px solid #5B82D4;
+    border-radius: 15px;
+    padding: .5rem;
+    width: 90%;
+}
+form legend {
+    color: #5B82D4;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label {
+    display: block;
+    font-size: 1rem;
+    padding: .5rem;
+}
+form input {
+    padding: .5rem;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form label input:required {
+    border-left: red solid 6px;
+}
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+form input.submitB {
+    border: none;
+    background-color: maroon;
+    color: white;
+    border-radius: 15px;
+    padding: .75rem 1.5rem;
+    margin: 2rem;
+    margin-left: 2rem;
+    width: 96%;
+    max-width: 20rem;
+}
+form textarea {
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+fieldset div {
+    padding: .5rem;
+}
+#thanks {
+    margin: 2rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid  #5B82D4;
+    font-size: 1.5rem;
+    width: 90%;
+    text-align: center;
+}
+
+/*Gallery Page */
+#gallerySection {
+    display: grid;
+    grid-gap: 25px;
+    margin: none;
+    justify-content: center;
+    align-items: center;
+}
+.galleryDiv {
+    margin: 1.5rem;
+    padding: 1rem;
+    background-color: #DDE6F0;
+}
+.galleryDiv picture img[data-src] {
+    filter: blur(0.5em);
+}
+main .galleryDiv picture img {
+    filter: blur(0em);
+    transition: filter .5s;
+    max-width: 90%;
+}
+
 
 /*toggle class add*/
 .responsive li {

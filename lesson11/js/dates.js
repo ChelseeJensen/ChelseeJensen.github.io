@@ -45,3 +45,8 @@ function showbannerad() {
         document.getElementById('bannerad').style.display = "none";
     }
 }
+
+/* Adjust Rating */
+function adjustRating(rating) {
+    document.getElementById("ratingValue").innerHTML = rating;
+}
