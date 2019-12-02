@@ -40,10 +40,10 @@ fetch(apiURLforecast)
                        
                 //Get the date and post
                 let date = new Date(time);
-                let weekdayOption = { weekday: 'short'};
+                let weekdayOption = { weekday: 'short' };
                 let weekday = date.toLocaleDateString('en-US', weekdayOption);
-                let nameId = 'name' + j;
-                document.getElementById(nameId).textContent = weekday;
+                let labelId = 'label' + j;
+                document.getElementById(labelId).textContent = weekday;
 
                 //Weather Icon
                 let icon = 'https://api.openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
@@ -61,4 +61,29 @@ fetch(apiURLforecast)
             }
             i++;
         }
+    });
+
+//Town Events Fetch Method//
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+    
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        const towns = jsonObject['towns'];
+           
+        for (let i=0; i<towns.length; i++) {
+            if(towns[i].name == "Preston") {
+                let list = document.createElement('ul');
+
+                for (let j = 0; j < towns[i].events.length; j++) {
+                    let item = document.createElement('li');
+                    item.textContent = towns[i].events[j];
+                    list.appendChild(item);
+
+                document.querySelector('div.events').appendChild(list);
+                }
+            }
+        }    
     });

@@ -54,6 +54,11 @@ main {
     margin: .5rem auto;
     max-width: 70rem;
 }
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-top: -15px;
+}
 #bannerad {
     position: fixed;
     width: 100%;
@@ -65,18 +70,18 @@ main {
     background-color: #FEB766;
     overflow: hidden;
 }
+
+/*----- Navigation/ Menu Bar -----------------*/
 nav {
     background-color: #BAD6EF;
-}
-.motto {
-    font-style: italic;
-    letter-spacing: 1pt;
-    margin-top: -15px;
+    text-align: center;
+    margin: auto;
 }
 .menu {
     list-style: none;
-    text-align: center;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 .menu li:first-child {
     display: block;
@@ -100,6 +105,13 @@ nav {
     color: #FEB766;
     padding: 0.75rem;
 }
+/*---- toggle class add ------*/
+.responsive li {
+    display: block;
+}
+
+/*----------- Town Pages ------------*/
+/*HeroSection*/
 .heroDiv {
     width: 100%;
     overflow: hidden;
@@ -109,6 +121,7 @@ nav {
     width: 110%;
     margin-left: -3rem;
 }
+/*Weather Summary*/
 .weatherInfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -184,6 +197,7 @@ nav {
     padding: .5rem;
     margin-top: .5rem;
 }
+/*Forecast*/
 .weatherBox {
     display: none;
     margin: 1rem;
@@ -202,7 +216,7 @@ section.forecastBox {
     border: 1px solid darkgrey;
     background-color: #DDE6F0;
 }
-section.forecastBox div.columnTop {
+section.forecastBox div.forecastlabel {
     text-align: center;
     width: 99%;
     line-height: 2rem;
@@ -222,10 +236,11 @@ section.forecastBox div.forecastStats {
     text-align: center;
     border-right: 1px solid darkgrey;
 }
-/*.icon {
+.icon {
     margin: 0 auto;
     width: 50%;
-}*/
+}
+/*Article and Contact*/
 .articleImg {
     text-align: center;
     width: 80%;
@@ -253,8 +268,24 @@ section.forecastBox div.forecastStats {
     border-radius: 5px;
     border: 3px black solid;
 }
+/*Town Events*/
+div.eventsdiv {
+    background-color: #DDE6F0;
+    text-align: left;
+    border: 1px solid #5B82D4;
+    padding: 1rem;
+}
+div.eventsdiv h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid darkgrey;
+}
+div.eventsdiv .events {
+    padding-top: 1rem;
+}
 
-/* Home Page index.html */
+/*---------- Home Page index.html ------------*/
 main div.towninfo {
     display: grid;
     grid-template-columns: 100%;
@@ -280,7 +311,7 @@ main div.towninfo p {
     padding: .5rem;
 }
 
-/*Form Styling*/
+/*------------- Form Styling ------------------*/
 form {
     text-align: left;
 }
@@ -342,7 +373,7 @@ fieldset div {
     text-align: center;
 }
 
-/*Gallery Page */
+/*--------------- Gallery Page --------------*/
 #gallerySection {
     display: grid;
     grid-gap: 25px;
@@ -362,10 +393,4 @@ main .galleryDiv picture img {
     filter: blur(0em);
     transition: filter .5s;
     max-width: 90%;
-}
-
-
-/*toggle class add*/
-.responsive li {
-    display: block;
 }
