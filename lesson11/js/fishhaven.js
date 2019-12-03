@@ -40,7 +40,7 @@ fetch(apiURLforecast)
                        
                 //Get the date and post
                 let date = new Date(time);
-                let weekdayOption = { weekday: 'short'};
+                let weekdayOption = {weekday: 'short'};
                 let weekday = date.toLocaleDateString('en-US', weekdayOption);
                 let nameId = 'name' + j;
                 document.getElementById(nameId).textContent = weekday;
