@@ -216,7 +216,7 @@ section.forecastBox {
     border: 1px solid darkgrey;
     background-color: #DDE6F0;
 }
-section.forecastBox div.forecastlabel {
+section.forecastBox div.forecastname {
     text-align: center;
     width: 99%;
     line-height: 2rem;
@@ -229,6 +229,7 @@ section.forecastBox div.forecastlabel {
 section.forecastBox div.forecastIcons img {
     padding: 1.5rem;
     border-right: 1px solid darkgrey;
+    border-collapse: collapse;
 }
 section.forecastBox div.forecastStats {
     display: inline;

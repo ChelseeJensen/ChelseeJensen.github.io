@@ -42,8 +42,8 @@ fetch(apiURLforecast)
                 let date = new Date(time);
                 let weekdayOption = { weekday: 'short' };
                 let weekday = date.toLocaleDateString('en-US', weekdayOption);
-                let labelId = 'label' + j;
-                document.getElementById(labelId).textContent = weekday;
+                let nameId = 'name' + j;
+                document.getElementById(nameId).textContent = weekday;
 
                 //Weather Icon
                 let icon = 'https://api.openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
