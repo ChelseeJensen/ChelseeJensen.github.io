@@ -18,12 +18,12 @@ header {
 	margin: 0; 
     font-size: 1.5rem;
     font-weight: $heavyWeight;
-}
+} //ends h1
  h2{
 	margin: 0; 
 	font-size: 1.2rem; 
 	font-weight: $regularWeight;
-}
+} //ends h2
 } //ends header
 
 nav {background-color: #111;
@@ -36,14 +36,14 @@ nav {background-color: #111;
     color: #eee;
     text-align: center;
     text-decoration: none;
-}
+} //ends a
  a:hover {background-color: #444;}
 } //ends nav
 
 main{display: block; padding: 1rem $gutter;
  h1 {color: $primaryColor;
     font-weight: $heavyWeight
-}
+} //ends h1
  figure{
     margin: 0;
     width: 100%;
