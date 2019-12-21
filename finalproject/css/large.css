@@ -1,0 +1,19 @@
+/*---------- desktop view (60 em) -----------*/
+@media only screen and (min-width: 60em) {
+    .nav {
+        display: flex;
+    }
+    #navlabel {
+        display: none;
+    }
+    .nav li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    #heroPic {
+        max-height: 50rem;
+    }
+    #locationhighlights {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,222 @@
+/* ----------- baseline view ------------- */
+@import url('https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --------------- Navigation ---------------- */
+nav {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav li:first-child {
+    display: block;
+}
+.nav li {
+    display: none;
+}
+.nav a {
+    display: block; 
+    text-align: center;
+    color: #49577D;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.nav a:hover {
+    color: #77819E;
+    background-color: #E8EAEF;
+}
+.nav .active {
+    background-color: #77819E;
+    color: #FFEEC4;
+    padding: 0.75rem;
+}
+/* --------------- Toggle Class Add ------------*/
+.responsive li {
+    display: block;
+}
+
+/* --------------- Header/Body ---------------*/
+header {
+    display: flex;
+    padding: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+body {
+    font-size: 1rem;
+    font-family: 'Barlow', sans-serif;
+    margin: 0 auto;
+    min-width: 18rem;
+    line-height: 1.5rem;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: .5rem;
+    color: #49577D;
+}
+h1 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+/* --------------- Footer ----------------- */
+.contactinfo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    background-color: #49577D;
+}
+.address {
+    padding: 2rem;
+}
+.follow {
+    padding: 2rem;
+}
+body .follow img {
+    max-width: 3rem;
+    padding: .5rem;
+}
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    background-color: #49577D;
+    padding: .5rem;
+}
+
+/* --------------- Home Page ---------------- */
+.topsection {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#heroPic {
+    width: 110%;
+    margin-left: -2rem;
+}
+.buttondiv {
+    position: absolute;
+    bottom: 30px;
+    width: 300px;
+    left: 50%;
+    margin-left: -50px;
+}
+.buttondiv button {
+    font-size: 1.5rem;
+    background-color: #b0cc89;
+    border-radius: 5px;
+}
+#amenities {
+   margin: .5rem; 
+}
+#amenitiesimages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+#amenities a {
+    color: #49577D; 
+}
+.seemore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#locationhighlights {
+    background-color: #E8EAEF;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+#locationhighlights img {
+    padding: 1rem;
+    align-content: center;
+    margin: 1.5rem;
+}
+
+/* --------------- Contact Us ---------------- */
+.maparea {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    background-color: #E8EAEF;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* --------------- Reserve ---------------- */
+main h2 {
+    text-align: center;
+}
+.checkbox {
+    display: flex;
+}
+form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+form fieldset {
+    margin: 2rem;
+    margin-left: 2rem;
+    border: 1px solid #49577D;
+    border-radius: 15px;
+    width: 90%;
+}
+form legend {
+    color: #49577D;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label {
+    padding: .5rem;
+    font-size: 1rem;
+}
+form input {
+    padding: .25rem;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form input.submitB {
+    border: none;
+    background-color: #b0cc89;
+    color: black;
+    border-radius: 15px;
+    padding: .75rem;
+    margin: 2rem;
+    margin-top: .75rem;
+    width: 96%;
+    max-width: 20rem;
+}
+form textarea {
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}

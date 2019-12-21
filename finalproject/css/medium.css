@@ -1,0 +1,27 @@
+/*---------- tablet view ----------*/
+@media only screen and (min-width: 37.5em) {
+    #navlabel {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        padding: 0 15px 0 15px;
+    }
+    .nav {
+        display: flex;
+    }
+    .nav li {
+        display: block;
+        flex: 1 1 100%;
+        justify-content: center;
+    }
+    .nav li:last-child {
+        padding-right: 8rem;
+    }
+    #heroPic {
+        max-height: 30rem;
+    }
+    #locationhighlights {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

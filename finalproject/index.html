@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="Home Page for Final Project for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        
+        <title>Chelsee Jensen  |  CIT 230  |  Temple Inn & Suites  |  Home Page</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="/finalproject/css/small.css">
+        <link rel="stylesheet" href="/finalproject/css/medium.css">
+        <link rel="stylesheet" href="/finalproject/css/large.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+
+    <body>
+<!--*************** Narrow Header with Logo ******************-->
+        <header>
+            <img src="#" alt="Temple Inn & Suites Logo">
+            <section>
+                <p>Hotels can be a heaven on Earth</p>
+            </section>
+            <section>
+                <button onclick="#">Sign In</button>
+            </section>
+        </header>
+
+<!--*************** Navigation Menu *****************-->
+        <nav>
+            <ul class="nav">
+                <li><a href="#" onclick="toggleMenu()" id="navlabel">&#9776; Menu</a></li>
+                <li><a href="/finalproject/index.html" class= "active">Home</a></li>
+                <li><a href="/finalproject/temples.html">Temples</a></li>
+                <li><a href="/finalproject/reserve.html">Reserve</a></li>
+                <li><a href="/finalproject/services.html">Services</a></li>
+                <li><a href="/finalproject/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+<!--*************** Body of Webpage *****************-->
+        <main>
+            <section class="topsection">
+                <div id="heropicture">
+                    <figure>
+                        <img src="/finalproject/images/saltlakeherolarge.jpg" alt="Salt Lake Temple" sizes="60vw" id="heroPic"
+                        srcset="/finalproject/images/saltlakeherosmall.jpg 500w, 
+                        /finalproject/images/saltlakeheromedium.jpg 800w,
+                        /finalproject/images/saltlakeherolarge.jpg 1100w">
+                    </figure>
+                </div>
+
+                <div class="buttondiv">
+                    <button type="button">Reserve Now!</button>
+                </div>
+            </section>
+
+            <section id="amenities">
+                <h2>Special Amenities</h2>
+                <div id="amenitiesimages">
+                    <img src="/finalproject/images/wifilarge.png" alt="WiFi Icon" sizes="60vw" id="wifi" 
+                    srcset="/finalproject/images/wifismall.png 500w, 
+                    /finalproject/images/wifimedium.png 800w, 
+                    /finalproject/images/wifilarge.png 1100w">
+                    <img src="/finalproject/images/breakfastlarge.png" alt="Breakfast Food Icon" sizes="60vw" id="breakfast"
+                    srcset="/finalproject/images/breakfastsmall.png 500w, 
+                    /finalproject/images/breakfastmedium.png 800w,
+                    /finalproject/images/breakfastlarge.png 1100w">
+                    <img src="/finalproject/images/poollarge.png" alt="Swimming Pool Icon" sizes="60vw" id="pool"
+                    srcset="/finalproject/images/poolsmall.png 500w,
+                    /finalproject/images/poolmedium.png 800w,
+                    /finalproject/images/poollarge.png 1100w">
+                </div>
+                <div class="seemore">
+                   <a href="/finalproject/services.html">See More 	&rarr;</a>
+                </div>
+            </section>
+
+            <section id="locationhighlights">
+                <div class="highlightimages">
+                    <div>
+                        <img src="/finalproject/images/highlighttemplelarge.jpg" alt="Salt Lake Temple" sizes="60vw"
+                        srcset="/finalproject/images/highlighttemplesmall.jpg 500w,
+                        /finalproject/images/highlighttemplemedium.jpg 800w,
+                        /finalproject/images/highlighttemplelarge.jpg 1100w">
+                    </div>
+                    <div>
+                        <img src="/finalproject/images/highlightactivitylarge.jpg" alt="Beehive House in Downtown Salt Lake City" sizes="60vw"
+                        srcset="/finalproject/images/highlightactivitysmall.jpg 500w, 
+                        /finalproject/images/highlightactivitymedium.jpg 800w, 
+                        /finalproject/images/highlightactivitylarge.jpg 1100w">
+                    </div>
+                    <div>
+                        <img src="/finalproject/images/highlightgroundslarge.jpg" alt="Temple Square Grounds" sizes="60vw"
+                        srcset="/finalproject/images/highlightgroundssmall.jpg 500w,
+                        /finalproject/images/highlightgroundsmedium.jpg 800w, 
+                        /finalproject/images/highlightgroundslarge.jpg 1100w">
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contactinfo">
+            </section>
+
+            <section class="contactinfo">
+                <div class="address">
+                    <p>Need Help?</p>
+                    <p>555-867-5309</p>
+                    <p>4800 Montgomery Ln. #300</p>
+                    <p>Bethesda, MD 20814</p>
+                </div>
+                <div class="follow">
+                    <a href="#"><p>Terms/Policies</p></a>
+                    <p>Follow Us: </p>
+                    <a href="https://www.facebook.com"><img src="images/facebook.jpg" alt="Facebook Icon"></a>
+                    <a href="https://www.instagram.com"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
+                    <a href="https://www.messenger.com"><img src="images/messenger.jpg" alt="Messenger Icon"></a>
+                    <a href="https://www.pinterest.com"><img src="images/pinterest.jpg" alt="Pinterest Icon"></a>
+                    <a href="https://www.twitter.com"><img src="images/twitter.jpg" alt="Twitter Icon"></a>
+                </div>
+            </section>
+
+        </main>
+
+<!--*************** Contact Info Footer ***************-->
+        <footer>
+            &copy; Temple Inn & Suites | Attributions<a href="#"></a> | <a href="../index.html">Chelsee Jensen</a>
+            <p id="currentdate"></p>
+        </footer>
+
+<!--*************** JavaScript Sources ****************-->
+        <div>
+            <script></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+            <script src="/finalproject/js/webfont.js"></script>
+        </div>
+    </body>
+</html>
