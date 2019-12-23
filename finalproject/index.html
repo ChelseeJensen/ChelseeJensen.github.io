@@ -28,14 +28,23 @@
 
 <!--*************** Navigation Menu *****************-->
         <nav>
-            <ul class="nav">
-                <li><a href="#" onclick="toggleMenu()" id="navlabel">&#9776; Menu</a></li>
-                <li><a href="/finalproject/index.html" class= "active">Home</a></li>
-                <li><a href="/finalproject/temples.html">Temples</a></li>
-                <li><a href="/finalproject/reserve.html">Reserve</a></li>
-                <li><a href="/finalproject/services.html">Services</a></li>
-                <li><a href="/finalproject/contact.html">Contact Us</a></li>
-            </ul>
+            <div>
+                <ul class="nav">
+                    <li><a href="#" onclick="toggleMenu()" id="navlabel">&#9776; Menu</a></li>
+                    <li><a href="/finalproject/index.html" class= "active">Home</a></li>
+                    <li><a href="/finalproject/temples.html">Temples</a></li>
+                    <li><a href="/finalproject/reserve.html">Reserve</a></li>
+                    <li><div class="subnav">
+                        <button class="subnavbutton">Services <i class="fa fa-caret-down"></i></button>
+                        <div class="subnav-content">
+                            <a href="/finalproject/services.html">Services</a>
+                            <a href="/finalproject/wedding.html">Wedding Receptions</a>
+                            <a href="/finalproject/suites.html">Missionary Suites</a>
+                            </div>
+                        </div></li>
+                    <li><a href="/finalproject/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
 
 <!--*************** Body of Webpage *****************-->
@@ -51,7 +60,7 @@
                 </div>
 
                 <div class="buttondiv">
-                    <button type="button">Reserve Now!</button>
+                    <button type="button"><a href="/finalproject/reserve.html">Reserve Now!</a></button>
                 </div>
             </section>
 
@@ -128,7 +137,6 @@
 <!--*************** Contact Info Footer ***************-->
         <footer>
             &copy; Temple Inn & Suites | Attributions<a href="#"></a> | <a href="../index.html">Chelsee Jensen</a>
-            <p id="currentdate"></p>
         </footer>
 
 <!--*************** JavaScript Sources ****************-->

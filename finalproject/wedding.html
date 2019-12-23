@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width initial-scale=1">
-        <meta name="description" content="Contact Us Page for Final Project for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        <meta name="description" content="Service Page for Final Project for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
         
-        <title>Chelsee Jensen  |  CIT 230  |  Temple Inn & Suites  |  Contact Us Page</title>
+        <title>Chelsee Jensen  |  CIT 230  |  Temple Inn & Suites  |  Services Page</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="/finalproject/css/small.css">
@@ -37,17 +37,40 @@
                     <button class="subnavbutton">Services <i class="fa fa-caret-down"></i></button>
                     <div class="subnav-content">
                         <a href="/finalproject/services.html">Services</a>
-                        <a href="/finalproject/wedding.html">Wedding Receptions</a>
+                        <a href="/finalproject/wedding.html" class="active">Wedding Receptions</a>
                         <a href="/finalproject/suites.html">Missionary Suites</a>
                         </div>
                     </div></li>
-                <li><a href="/finalproject/contact.html" class= "active">Contact Us</a></li>
+                <li><a href="/finalproject/contact.html">Contact Us</a></li>
             </ul>
         </nav>
 
 <!--*************** Body of Webpage *****************-->
         <main>
-            <p class="thanks">Thank you for contacting us! We will be in touch with you soon.</p>
+            <section class="reception">
+                <h2>Specialized Services</h2>
+                <h3>Wedding Receptions</h3>
+                <div>
+                    <div class="hall">
+                        <img src="/finalproject/images/receptionhall.jpg" alt="Wedding Reception Hall">
+                    </div>
+                    <div class="hall">
+                        <p>Our beautiful reception hall is easily customized to fit the style of the bride and groom. We will set up and take down decorations, making this special day carefree and more enjoyable.</p>
+                    </div>
+                    <div class="food">
+                        <img src="/finalproject/images/catering.jpg" alt="Catered Food">
+                    </div>
+                    <div class="food">
+                        <p>Our simple catering menu makes serving guests enjoyable. Each recipe has been tested and is loved by all age groups. Let us prepare the food so you can enjoy your special day with family and friends.</p>
+                    </div>
+                    <div class="kitchen">
+                        <img src="/finalproject/images/kitchenaccess.jpg" alt="Large Kitchen Area">
+                    </div>
+                    <div class="kitchen">
+                        <p>We offer kitchen access for any food preparation needs and serving. Want to prepare your own food while using our reception hall? Our beautiul kitchen makes serving a breeze.</p>
+                    </div>
+                </div>
+            </section>
 
             <section class="contactinfo">
                 <div class="address">
@@ -70,8 +93,7 @@
 
 <!--*************** Contact Info Footer ***************-->
         <footer>
-            &copy; Temple Inn & Suites | Attributions | <a href="../index.html">Chelsee Jensen</a>
-            <p id="currentdate"></p>
+            &copy; Temple Inn & Suites | <a href="../index.html"> Chelsee Jensen</a>
         </footer>
 
 <!--*************** JavaScript Sources ****************-->

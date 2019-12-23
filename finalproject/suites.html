@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width initial-scale=1">
-        <meta name="description" content="Contact Us Page for Final Project for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        <meta name="description" content="Service Page for Final Project for Chelsee Jensen in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
         
-        <title>Chelsee Jensen  |  CIT 230  |  Temple Inn & Suites  |  Contact Us Page</title>
+        <title>Chelsee Jensen  |  CIT 230  |  Temple Inn & Suites  |  Services Page</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="/finalproject/css/small.css">
@@ -38,16 +38,47 @@
                     <div class="subnav-content">
                         <a href="/finalproject/services.html">Services</a>
                         <a href="/finalproject/wedding.html">Wedding Receptions</a>
-                        <a href="/finalproject/suites.html">Missionary Suites</a>
+                        <a href="/finalproject/suites.html" class="active">Missionary Suites</a>
                         </div>
                     </div></li>
-                <li><a href="/finalproject/contact.html" class= "active">Contact Us</a></li>
+                <li><a href="/finalproject/contact.html">Contact Us</a></li>
             </ul>
         </nav>
 
 <!--*************** Body of Webpage *****************-->
         <main>
-            <p class="thanks">Thank you for contacting us! We will be in touch with you soon.</p>
+            <section class="missionary">
+                <h2>Specialized Services</h2>
+                <h3>Full-Time Missionary Suites</h3>
+                <div>
+                    <div>
+                        <img src="/finalproject/images/kitchensuite.jpg" alt="Kitchenette in Suite">
+                    </div>
+                    <div>
+                        <img src="/finalproject/images/livingroom.jpg" alt="Living Room in Suite">
+                    </div>
+                    <div>
+                        <p>Our beautiul, luxurious suites provide housing for Full-Time Missionaries serving away from home. Our fully furnished suites allow you to cook your own meals and have plenty of space for entertaining guests.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="moreinfo">
+                <form method="get" action="missionarythanks.html" name="MissionaryForm">
+                    <fieldset>
+                        <legend>More Information</legend>
+
+                        <label>First Name* <br><input type="text" name="firstName" pattern="[A-Za-z]{3,}" autofocus required></label><br>
+                        <label>Last Name* <br><input type="text" name="lastName" pattern="[A-Za-z]{3,}"></label><br>
+                        <label>Email <br><input type="email" name="email" placeholder="janedoe@example.com"></label><br>
+                        <label>Phone Number <br><input type="tel" name="phone" required placeholder="5558675309"></label><br>
+                        <label for="comments">Comments/Concerns:<br>
+                            <textarea id="comments" name="comments"></textarea>
+                        </label>
+                        <input type="submit" name="contact" value="Submit" class="submitB">
+                    </fieldset>
+                </form>
+            </section>
 
             <section class="contactinfo">
                 <div class="address">
@@ -70,8 +101,7 @@
 
 <!--*************** Contact Info Footer ***************-->
         <footer>
-            &copy; Temple Inn & Suites | Attributions | <a href="../index.html">Chelsee Jensen</a>
-            <p id="currentdate"></p>
+            &copy; Temple Inn & Suites | <a href="../index.html"> Chelsee Jensen</a>
         </footer>
 
 <!--*************** JavaScript Sources ****************-->

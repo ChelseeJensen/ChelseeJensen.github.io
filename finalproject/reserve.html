@@ -33,7 +33,14 @@
                 <li><a href="/finalproject/index.html">Home</a></li>
                 <li><a href="/finalproject/temples.html">Temples</a></li>
                 <li><a href="/finalproject/reserve.html" class="active">Reserve</a></li>
-                <li><a href="/finalproject/services.html">Services</a></li>
+                <li><div class="subnav">
+                    <button class="subnavbutton">Services <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="/finalproject/services.html">Services</a>
+                        <a href="/finalproject/wedding.html">Wedding Receptions</a>
+                        <a href="/finalproject/suites.html">Missionary Suites</a>
+                        </div>
+                    </div></li>
                 <li><a href="/finalproject/contact.html">Contact Us</a></li>
             </ul>
         </nav>
@@ -49,14 +56,15 @@
                     <br>
                     <select name="locations" id="locations">
                         <option value=" " selected="selected" disabled>-- Select Location --</option>
-                        <option value="#"></option>
-                        <option value="#"></option>
+                        <option value="#">Manhattan, New York, USA</option>
+                        <option value="#">Laie, Hawaii, USA</option>
+                        <option value="#">San Diego, California, USA</option>
                         <option value="#">Salt Lake City, UT, USA</option>
                     </select>
                     </label>
                     <br>
 
-                    <label>Check-In <br><input type="date" name="date"></label><br>
+                    <label>Check-In <br><input type="date" name="date" autofocus></label><br>
                     <label>Check-Out <br><input type="date" name="date"></label><br>
                     
                     <label for="guests">Guests 
@@ -81,7 +89,7 @@
                     </select>
                     </label><br>
 
-                    <label for="rooms" id="rooms">Rooms
+                    <label for="rooms">Rooms
                         <br>
                         <select name="rooms" id="rooms">
                             <option value=" " selected="selected" disabled>-- Select Room Amount --</option>
@@ -140,8 +148,8 @@
 
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label>First Name* <br><input type="text" name="firstName" pattern="[A-Za-z]{5,}" autofocus required></label><br>
-                    <label>Last Name* <br><input type="text" name="lastName" pattern="[A-Za-z]{5,}"></label><br>
+                    <label>First Name* <br><input type="text" name="firstName" pattern="[A-Za-z]{5,}" required></label><br>
+                    <label>Last Name* <br><input type="text" name="lastName" pattern="[A-Za-z]{5,}" required></label><br>
                     <label>Email <br><input type="email" name="email" placeholder="janedoe@example.com"></label><br>
                     <label>Phone Number* <br><input type="tel" name="phone" required placeholder="5558675309"></label><br>
                     <label><input type="radio" name="phone" value="mobile"> Mobile</label>

@@ -16,4 +16,13 @@
     #locationhighlights {
         grid-template-columns: repeat(3, 1fr);
     }
+    .services div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .amenitiesicons div {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .receptions img {
+        max-width: 500px;
+    }
 }
