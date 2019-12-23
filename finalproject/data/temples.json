@@ -27,8 +27,7 @@
             "28 July 1847 - Temple Announced",
             "14 February 1853 - Groundbreaking",
             "6 April 1893 - Dedicated"
-        ],
-        "imageurl": "https://www.churchofjesuschrist.org/temples/photo-gallery/salt-lake-temple?lang=eng",
+        ]
     },
     {
         "name": "San Diego California Temple",
@@ -69,8 +68,7 @@
             "7 April 1984 - Announced",
             "27 February 1988 - Groundbreaking",
             "25 April 1993 - Dedicated"
-        ],  
-        "imageurl": "",
+        ]
     },
     {
         "name": "Laie Hawaii Temple",
@@ -118,8 +116,7 @@
             "27 November 1919 - Dedicated",
             "13 June 1978 - Rededicated",
             "21 November 2010 - Rededicated"
-        ],
-        "imageurl": "",
+        ]
     },
     {
         "name": "Manhattan New York Temple",
@@ -180,8 +177,7 @@
             "7 August 2002 - Announced",
             "23 September 2002 - Groundbreaking",
             "13 June 2004 - Dedicated"
-        ],
-        "imageurl": "https://www.churchofjesuschrist.org/temples/photo-gallery/manhattan-new-york-temple?lang=eng",
+        ]
     }
 ]
 }
