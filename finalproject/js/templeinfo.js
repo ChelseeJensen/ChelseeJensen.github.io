@@ -1,4 +1,4 @@
-const requestURL = 'https://ChelseeJensen.github.io/finalproject/data/templeinfo.json';
+const requestURL = 'https://ChelseeJensen.github.io/finalproject/data/temples.json';
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -42,37 +42,37 @@ fetch(requestURL)
 
                 /*Create Text: Services*/
                 let p4 = document.createElement('p');
-                p.textContent = temples[i].services;
+                p.textContent = 'Services: ' + temples[i].services;
                 card.appendChild(p);
                 document.querySelector('div.templeinfo').appendChild(card);
 
                 /*Create Text: Baptisms*/
                 let p5 = document.createElement('p');
-                p.textContent = temples[i].baptism;
+                p.textContent = 'Baptisms for the Dead Schedule: ' + temples[i].baptism;
                 card.appendChild(p);
                 document.querySelector('div.templeinfo').appendChild(card);
 
                 /*Create Text: Initiatories*/
                 let p6 = document.createElement('p');
-                p.textContent = temples[i].initiatory;
+                p.textContent = 'Initiatories Schedule: ' + temples[i].initiatory;
                 card.appendChild(p);
                 document.querySelector('div.templeinfo').appendChild(card);
 
                 /*Create Text: Endowment*/
                 let p7 = document.createElement('p');
-                p.textContent = temples[i].endowment;
+                p.textContent = 'Endowment Session Schedule: ' + temples[i].endowment;
                 card.appendChild(p);
                 document.querySelector('div.templeinfo').appendChild(card);
 
                 /*Create Text: Sealing*/
                 let p8 = document.createElement('p');
-                p.textContent = temples[i].sealing;
+                p.textContent = 'Sealing Schedule: ' + temples[i].sealing;
                 card.appendChild(p);
                 document.querySelector('div.templeinfo').appendChild(card);
 
                 /*Create Text: Closure*/
                 let p9 = document.createElement('p');
-                p.textContent = temples[i].closure;
+                p.textContent = 'Closures: ' + temples[i].closure;
                 card.appendChild(p);
                 document.querySelector('div.templeinfo').appendChild(card);
 

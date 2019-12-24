@@ -335,3 +335,8 @@ form textarea {
 .moreinfo {
     background-color: #E8EAEF;
 }
+/* --------------- Temples --------------- */
+.templeinfo {
+    margin: .5rem;
+    padding: 1.5rem;
+}
